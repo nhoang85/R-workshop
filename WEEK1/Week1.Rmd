@@ -122,8 +122,6 @@ Base R cheatsheet: https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-
 
 ```{r, }
 
-library(tidyverse)
-
 a <- 5 # numeric variable
 class(a)
 
@@ -139,6 +137,12 @@ c <- a/b
 d <- 'Hello World' # character variable
 class(d)
 
+#clear these values with broom icon 
+#then re-run codes via RUN function(green play button at top right corner of this grey box)
+#find function
+#highlight variable to where else it appears in your markdown
+#pressing tab on the keyboard to quickly complete your variable of interest
+#pressing up arrow in the console will quickly highlight your last function used
 ```
 ```{r,}
 ## create a vector (R likes to call them lists) by using the c() function called combine or concatenate
@@ -183,7 +187,62 @@ m[2,] # 2nd row
 
 ```{r, }
 
-z <- TRUE # logical variable
+#Replicate function
+#The rep() function in R is a base utility used to replicate elements of vectors and lists. It allows you to create larger data structures by repeating existing values in specific patterns
+
+#Example1 with times: Repeats the entire vector a specific number of times.
+a <- rep(1:2, times = 3) #→ 1, 2, 1, 2, 1, 2
+
+#Example2 with each: Repeats each individual element of the vector before moving to the next.
+b <- rep(1:2, each = 3) #→ 1, 1, 1, 2, 2, 2
+
+stress_exercise <- c(2,2,4,5,5)
+view(stress_exercise)
+
+stress_NOexercise <- c(11,15,20,13,22)
+
+#create data frame with both exercise and no exercise
+group <- rep(c("exercise","no_exercise"), each=5)
+view(group)  
+class(group)
+
+stress_data <- data.frame (
+  group = rep(c("exercise","no_exercise"), each=5)
+  
+)
+
+stress_data <- data.frame (
+  group = rep(c("exercise","no_exercise"), each=5),
+  stress = c(stress_exercise, stress_NOexercise)
+)
+
+
+#add a new column
+stress_data$sleep <- c(7,8,7,6,8,9,7,6,7,8)
+summary(stress_data)
+
+#convert character to factor for analysis
+stress_data$group <- as.factor(stress_data$group)
+
+#do t-test for sleep
+sleep.group <- t.test(sleep ~ group, data=stress_data)
+sleep.group
+
+#do t-test for stress
+stress.group <- t.test(stress ~ group, data=stress_data)
+stress.group
+
+#plot
+graph_stress <- ggboxplot(stress_data, x = "group", y = "stress",
+          color = "group",
+          ylab = "stress", xlab="group")
+
+graph_stress
+```
+
+```{r, }
+# Logical variables
+z <- TRUE 
 class(z)
 y <- T # logical shorthands!
 x <- F
@@ -232,16 +291,20 @@ if (logged_in && user_role2 == "admin") {
 
 ## basic control flow
 ## if/else commands
-nice_weather <- F
-very_sunny <- F
-if(nice_weather==T & very_sunny==T) {
+nice_weather <- T
+very_sunny <- T
+if(nice_weather==T && very_sunny==T) {
   print("let's go outside, put on sunscreen!")
 } else if(very_sunny==T) {
   print("put on sunscreen!")
 } else {
   print("more R inside!")
 }
+
+
 ```
+
+
 
 
 
