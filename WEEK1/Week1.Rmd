@@ -1,0 +1,113 @@
+## RSTUDIO
+
+#### 4 panels
+Top left: Script viewer - write your code to save it for future use
+Bottom left: Console - this is where R is actually running
+Top right: Variable/history displayer
+Bottom right: Files/plots/packages/help displayer
+
+#### Script vs Console
+Console: type commands directly to see their result. This is not saved
+Script editor: Save your code for later. 
+
+#### Shortcuts
+TAB -- autocomplete
+control/cmd + enter -- run current line from the script in console
+
+## How to run a line of code?
+When you are on the line, press cmd (mac) / ctrl (windows), then enter (more later)
+
+## Comments
+
+Comments are lines in the script that are skipped and not run. They can be used to annotate your code and make it more friendly when you are trying out something new or for others if you are sharing your code. This is also VERY helpful to remind yourself of what you did when you look back at the code years after you wrote it.
+
+If you add a hash, everything written after is a comment.
+
+```{r comments2, error=TRUE}
+
+# This is a comment. We can use comments using a hash sign
+This is not a comment
+
+```
+
+
+
+
+## Setting Working Directory
+
+directory = folder
+
+The folder R will load files from and save files to. You can check and change the current directory to a different one
+
+```{r directory2}
+
+# Where am I? i.e. where is R currently looking for files or saving files to?
+getwd()
+
+# Set the location i.e.working directory.  This is where R will look for files you want to load.
+# setwd()
+
+# sample working directory for MAC users
+# setwd("/Users/anishakhosla/Desktop")
+
+# sample working directory for windows users
+#setwd("C:\\Users\\anishakhosla\\Desktop")
+
+```
+
+
+## Getting Help in RStudio
+
+Below are some ways to get help within RStudio. You can, of course, google functions and specific things you are looking for. R Documentation is usually a good first source because it details everything a function can do, but if you are looking for something more specific, often someone else has asked the same question on public forums like StackOverflow
+
+```{r help2, results='hide'}
+
+help.start()   # general help
+
+help(mean)    # help for function mean()
+?mean         # same as above
+
+example(mean) # shows an example of function mean()
+
+```
+
+
+
+## Packages
+
+Packages in R (and really any programming language) allow you to add functionality to base R. So you can are downloading a package of functions that did not exist before in base R.
+
+For example, if you want to do mixed models in R, you would download a package called 'lme4'. You can't do that with base R. We also download packages which make our lives easier and code easier to read and understand. For example, we can create plots to visualize data in base R but they are pretty tedious if you want to make them pretty and publication-ready, you would probably use 'ggplot2'. 
+
+There are alot of packages that add functionality or make our code easier to read. Hadley Wickham (http://hadley.nz/) made a universe of useful packages so you don't have to install each one of them individually. 'tidyverse' is a universe of such useful packages. When you load 'tidyverse', you will get a huge print out in your console detailing the packages that come with tidyverse
+
+```{r packages2}
+
+## Installing Packages
+# uncomment the line below and run it if you don't have this package installed
+#install.packages('tidyverse')
+
+## to view a list of installed packages
+# installed.packages()
+
+## Loading Packages
+# If you haven't installed the 'tidyverse' package, you should get an error when you run the line below
+# If you have it installed, you will get a huge print out in your console detailing the packages that come with tidyverse
+
+library(tidyverse)
+
+```
+
+
+
+# R Resources
+
+Free online edX course by Rafael Irizarry, Harvard University: https://www.edx.org/course/data-science-r-basics 
+
+**Cheatsheets**
+  *note that some of these are links to PDFs which will download when you click on them
+
+https://rstudio.com/resources/cheatsheets/ (various cheatsheets)
+Tidyverse cheatsheet: https://www.datacamp.com/community/blog/tidyverse-cheat-sheet-beginners
+RStudio cheatsheet: https://rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf 
+Base R cheatsheet: https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf
