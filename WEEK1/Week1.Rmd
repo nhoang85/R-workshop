@@ -48,10 +48,18 @@ getwd()
 # setwd()
 
 # sample working directory for MAC users
-# setwd("/Users/nhoang/Desktop")
+# setwd("/Users/hoang/Desktop")
 
 # sample working directory for windows users
-#setwd("C:\\Users\\nhoang\\Desktop")
+setwd("C:/Users/hoang/Documents/demo")
+getwd()
+#if you get this warning 
+#Warning: The working directory was changed to C:/Users/hoang/Documents/demo inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks. Then use the copy the code below and place it at the beginning of this r markdown (.rmd) file
+```
+
+```{r setup, include=FALSE}
+#knitr::opts_knit\$set(root.dir = "C:/Users/hoang/Documents/demo")
+```
 
 ```
 
