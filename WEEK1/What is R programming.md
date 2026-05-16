@@ -1,13 +1,13 @@
 ## What is R ? ##
 R is a free, open-source programming language and software environment specifically designed for statistical computing, data analysis, and data visualization. \
-Created in the early 1990s by Ross Ihaka and Robert Gentleman, it has become one of the fundamental tools used by data scientists, statisticians, and researchers worldwide to clean, analyze, and present data. \
+Created in the early 1990s by Ross Ihaka and Robert Gentleman, it has become one of the fundamental tools used by data scientists, statisticians, and researchers worldwide to clean, analyze, and present data. 
 
 ### Key Characteristics of R ###
 
-    ● Statistical First: Unlike general-purpose languages (like Python or Java), R was built from the ground up for math and statistics. \
-    ● Vectorized Operations: You can perform math on an entire list of numbers at once without writing complex loops. \
-    ● Open Source: It is entirely free to use and runs smoothly across Windows, macOS, and Linux. \
-    ● Publication-Quality Graphics: R is highly regarded for its ability to generate clean, highly customizable charts and graphs. \ 
+    ● Statistical First: Unlike general-purpose languages (like Python or Java), R was built from the ground up for math and statistics. 
+    ● Vectorized Operations: You can perform math on an entire list of numbers at once without writing complex loops. 
+    ● Open Source: It is entirely free to use and runs smoothly across Windows, macOS, and Linux. 
+    ● Publication-Quality Graphics: R is highly regarded for its ability to generate clean, highly customizable charts and graphs. 
 
 ### The Package Ecosystem ###
 While the core R language provides basic math and data tools, its true power comes from its vast library of over 15,000 add-on packages available via CRAN (Comprehensive R Archive Network). \
