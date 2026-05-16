@@ -244,8 +244,11 @@ graph_stress
 ```{r, }
 
 # --- Bootstrap to 100 participants (50 per group) ---
+#Bootstrapping is a statistical method that resamples your original dataset with replacement to estimate the accuracy, confidence intervals, or standard errors of a statistic (like a mean, median, or regression coefficient) 
+#In R, it means creating hundreds or thousands of "pseudo-datasets" of the exact same size as your original data, calculating your statistic on each, and analyzing the distribution of those results.
 
-#set.seed(123)  # for reproducibility
+set.seed(123)  # for reproducibility
+#ensures you get the same "random" results every time you run your code.
 
 # Split by group and resample each separately
 exercise_rows    <- stress_data[stress_data$group == "exercise", ]
