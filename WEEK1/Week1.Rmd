@@ -26,7 +26,7 @@ If you add a hash, everything written after is a comment.
 ```{r comments2, error=TRUE}
 
 # This is a comment. We can use comments using a hash sign
-#This is not a comment
+This is not a comment
 
 ```
 
@@ -238,7 +238,58 @@ graph_stress <- ggboxplot(stress_data, x = "group", y = "stress",
           ylab = "stress", xlab="group")
 
 graph_stress
+
 ```
+
+```{r, }
+
+# --- Bootstrap to 100 participants (50 per group) ---
+
+#set.seed(123)  # for reproducibility
+
+# Split by group and resample each separately
+exercise_rows    <- stress_data[stress_data$group == "exercise", ]
+no_exercise_rows <- stress_data[stress_data$group == "no_exercise", ]
+
+#The sample() function in R is used to take a random sample of a specified size from a dataset or vector. It is a core tool for tasks like data analysis, simulations, and randomized experiments
+boot_exercise <- exercise_rows[
+  sample(nrow(exercise_rows), size = 50, replace = TRUE), ]
+#The sample(nrow(df)) expression is a specific coding technique used to randomly shuffle the rows of a data frame. It generates a completely randomized list of row indices.
+#replace: If TRUE, an item can be picked more than once (sampling with replacement). If FALSE (default), each item is picked only once.
+
+boot_no_exercise <- no_exercise_rows[
+  sample(nrow(no_exercise_rows), size = 50, replace = TRUE), ]
+
+# Combine and reset row names
+stress_data_100 <- rbind(boot_exercise, boot_no_exercise)
+rownames(stress_data_100) <- 1:100
+
+# Inspect result
+summary(stress_data_100)
+table(stress_data_100$group)   # should show 50 / 50
+head(stress_data_100, 25)
+
+#convert character to factor for analysis
+stress_data_100$group <- as.factor(stress_data_100$group)
+
+#do t-test for sleep
+sleep.group.100 <- t.test(sleep ~ group, data=stress_data_100)
+sleep.group.100
+
+#do t-test for stress
+stress.group.100 <- t.test(stress ~ group, data=stress_data_100)
+stress.group.100
+
+#plot
+graph_stress_100 <- ggboxplot(stress_data_100, x = "group", y = "stress",
+          color = "group",
+          ylab = "stress", xlab="group")
+
+graph_stress_100
+```
+
+
+
 
 ```{r, }
 # Logical variables
@@ -276,9 +327,9 @@ user_role <- "admin"
 logged_in <- FALSE
 
 # R will waste time checking the user role, even if logged_in is FALSE which will return an error instead of letting the code bypass it. 
-if (logged_in & user_role2 == "admin") {
-  print("Access granted to dashboard.")
-}
+#if (logged_in & user_role2 == "admin") {
+  #print("Access granted to dashboard.")
+#}
 
 # With '&&' R won't waste time checking the user role; this is why '&&" is called short-circuit
 if (logged_in && user_role2 == "admin") {
