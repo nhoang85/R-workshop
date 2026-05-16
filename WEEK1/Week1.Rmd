@@ -427,7 +427,70 @@ if(nice_weather==T && very_sunny==T) {
 
 
 ```
+```{r, }
+#### --- For Loops --- ####
 
+#A for loop is a programming structure used to repeat a specific block of code a set number of times. It lets you iterate over every item in a vector or list, running your code for each item one by one.
+#need to indent lines of code after the first line, just like if statements
+
+#1. Basic Syntax
+#The loop defines a temporary variable name (often i), specifies the sequence to loop through, and contains the action steps inside curly braces {}.
+
+# Loops through numbers 1 to 5
+for (i in 1:5) {
+  print(i * 10)
+}
+
+#2. Looping Over Text Vectors
+#You can iterate directly over a vector of character strings just like you would with numbers.
+fruits <- c("apple", "banana", "cherry")
+
+for (fruit in fruits) {
+  print(paste("I like", fruit))
+}
+
+
+### --- For Loop plus If Else statements --- ###
+# 1. The victim list (Our Students)
+students <- c("Chad", "Karen", "Becky", "Brad", "Anxiety-Ridden Al")
+
+# 2. The grades they earned (or deserved)
+grades <- c(45, 98, 76, 12, 100)
+
+# Pre-allocating our fate vector (The Golden Rule!)
+judgment_day <- character(length(students))
+
+# 3. The Judgment Loop
+for (i in 1:length(students)) { #length(students) counts how many students there are so we have 1:5 or c(1,2,3,4,5)
+  
+  # Fetching the current student and their score
+  # i stands for index (or iterator). It acts as a temporary placeholder variable.
+  # On the first run of the loop, i becomes 1 or Chad and takes his grade. 
+  # On the second run, i becomes 2 or Karen and takes her grade, and so forth
+  current_student <- students[i]
+  current_grade   <- grades[i]
+  
+  # Drop the conditional hammer
+  if (current_grade >= 95) {
+    judgment_day[i] <- "Is an absolute nerd. Please touch grass."
+    
+  } else if (current_grade >= 75) {
+    judgment_day[i] <- "Passed! Your parents will briefly love you again."
+    
+  } else if (current_grade >= 40) {
+    judgment_day[i] <- "Failed. Time to pivot to a career as a TikTok influencer."
+    
+  } else {
+    judgment_day[i] <- "Spelled their own name wrong. Dropped out to buy crypto."
+  }
+  
+  # Print the immediate damage report
+  print(paste0("[STUDENT]:", current_student, " [GRADE]:", current_grade, " [VERDICT]:", judgment_day[i]))
+}
+  #paste0 is a print function
+  #judgment_day[i] uses [i] to pull out only the single roast that belongs to the current student being processed on that exact loop rotation ... or else R would try to print all 5 roasts simultaneously for every single student.
+  
+```
 
 
 
