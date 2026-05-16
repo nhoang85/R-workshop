@@ -33,7 +33,7 @@ R code is highly readable. For instance, to calculate a basic average from a lis
 
 ### R vs. Python ###
 People often compare R to Python. Python is a general programming language used for web development, video games, and software engineering. \
-R is specialized; it doesn't build apps .... \ 
+R is specialized; it doesn't build apps... \ 
 **But if your entire goal is to clean a messy spreadsheet, run a statistical analysis, and plot a beautiful graph, R is built exactly for that purpose.** \
 Most users write their R code inside a popular, user-friendly interface called RStudio. 
 
