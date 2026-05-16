@@ -6,6 +6,7 @@
 ● Run the downloaded .exe file, and follow the instructions.
 
 ### On a Mac ###
+● Navigate to this website: https://cloud.r-project.org/bin/macosx/ \
 ● Click on "R-4.6.0-arm64.pkg" \
 ● For older Macs that use Intel chips, click "R-4.6.0-x86_64.pkg" \ 
 ○ If you're not sure of your chip, click on the apple logo on the top right of the
