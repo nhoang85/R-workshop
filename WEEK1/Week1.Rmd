@@ -119,3 +119,24 @@ https://rstudio.com/resources/cheatsheets/ (various cheatsheets)
 Tidyverse cheatsheet: https://www.datacamp.com/community/blog/tidyverse-cheat-sheet-beginners
 RStudio cheatsheet: https://rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf 
 Base R cheatsheet: https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf
+
+
+```{r, }
+
+library(tidyverse)
+
+a <- 2
+b <- 6
+c <- a+b
+
+```
+
+
+
+
+
+
+
+
+
+
