@@ -126,44 +126,57 @@ library(tidyverse)
 
 a <- 5 # numeric variable
 class(a)
-b <- 6.1344444
-class (b)
+
+b <- 7 + 3.0
+
 
 c <- a+b
 c <- a-b
 c <- a*b
-c <- a/b # no need to worry about int vs. float!
-class(c)
+c <- a/b 
+
 
 d <- 'Hello World' # character variable
 class(d)
 
 ```
-```{r.}
-## create a vector (R likes to call them lists)
-x <- c(1,1,2,3,5,8) # all numbers
+```{r,}
+## create a vector (R likes to call them lists) by using the c() function called combine or concatenate
+list <- c(44,21,22,30,50,84) # a variable called 'list' of six numbers
+r <- c(44,21,22,30,50,84)
+call_it_whatever_you_like <- c(44,21,22,30,50,84)
 
 
 ## create a range of values
-r <- seq(1,10)
-r <- 1:10 # : works too, but no step option
-r <- seq(1,10,by=2) # seq includes a step size with 'by' argument
+list2 <- seq(1,10)
+list2b <- 1:10 # : works too, but no step option
+list3 <- seq(1,10,by=2) # seq includes a step size with 'by' argument
 
 ## index into a vector
-x[1]
-x[3]
-x[1:3] # : range of indices
-x[c(1,3,4)] # index with vector
-x[c(1:3,6)] # can include ranges and single indices
-x < 3 # standard logical operations 
-x[x<3] # ...can be used for indexing
+list[1]
+list[3]
+list[1:3] # : range of indices
+list[c(1,3,4)] # index with vector
+list[c(1:3,6)] # can include ranges and single indices
+list < 30 # standard logical operations 
+list[list<30] # ...can be used for indexing
 
 ## vector calculations (elementwise)
-x * 2
-x + x
-x / 4
-n<-r*2
-view(n)
+list4 <- list*10
+list4 <- list[1:2]*10
+list4 <- list - list2
+list5 <- (list+list2)/2
+
+view(list5)
+class(list5)
+
+## create matrix and index it
+m <- matrix(21:39,nrow=3,ncol=4)
+m
+m[3] # single index points to the specific row position of the first column
+m[2,3] # row and column indexing
+m[,4] # 3rd column (nothing can mean something in R!)
+m[2,] # 2nd row
 
 ```
 
@@ -214,6 +227,20 @@ if (logged_in && user_role2 == "admin") {
 }
 #Always use && and || inside if (...) statements in R. 
 #Use & and | exclusively for filtering columns or vectors of data.
+
+
+
+## basic control flow
+## if/else commands
+nice_weather <- F
+very_sunny <- F
+if(nice_weather==T & very_sunny==T) {
+  print("let's go outside, put on sunscreen!")
+} else if(very_sunny==T) {
+  print("put on sunscreen!")
+} else {
+  print("more R inside!")
+}
 ```
 
 
