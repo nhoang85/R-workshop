@@ -48,10 +48,10 @@ getwd()
 # setwd()
 
 # sample working directory for MAC users
-# setwd("/Users/anishakhosla/Desktop")
+# setwd("/Users/nhoang/Desktop")
 
 # sample working directory for windows users
-#setwd("C:\\Users\\anishakhosla\\Desktop")
+#setwd("C:\\Users\\nhoang\\Desktop")
 
 ```
 
