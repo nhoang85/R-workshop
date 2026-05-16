@@ -1,9 +1,11 @@
-### INSTALL R ###
-## On a Windows machine:
-#● Navigate to this website: https://cran.r-project.org/bin/
+## INSTALL R ##
+
+### On a Windows machine ###
+● Navigate to this website: https://cran.r-project.org/bin/
 ● Click on "Download R-4.6.0 for Windows"
 ● Run the downloaded .exe file, and follow the instructions.
-On a Mac:
+
+### On a Mac ###
 ● Navigate to this website: https://cloud.r-project.org/bin/macosx/
 ● Click on "R-4.6.0-arm64.pkg" 
 ● For older Macs that use Intel chips, click "R-4.6.0-x86_64.pkg" 
@@ -15,7 +17,7 @@ screen, and click on "About This Mac".
 under "For older Intel Macs".
 ● Run the downloaded .pkg file, and follow the instructions.
 
-#INSTALL RStudio:
+## INSTALL RStudio ##
 On all machines:
 ● Navigate to this website: https://posit.co/download/rstudio-desktop/
 ● Under "2: Install RStudio", it should have auto-detected your operating system. For
@@ -24,7 +26,7 @@ Mac. Click on the button, run the downloaded file, and follow the instructions.
 ● IF the OS on the button doesn't match your system, scroll down and download the
 package that matches your machine, and run the downloaded file.
 
-#AFTER INSTALLING RStudio:
+## AFTER INSTALLING RStudio ##
 ● Open RStudio.
 ● In the console, type the following command
 R.Version()
