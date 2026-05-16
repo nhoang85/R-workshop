@@ -25,6 +25,7 @@ The most famous suite of tools is the Tidyverse, which includes:
 
 ### How it Looks (An Example) ###
 R code is highly readable. For instance, to calculate a basic average from a list of numbers, the code looks like this: 
+
     ● Create a sequence of numbers (a vector)
       scores <- c(85, 90, 78, 92, 88)
     ● Calculate the average
