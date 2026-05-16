@@ -1,15 +1,16 @@
 #INSTALL R:
 On a Windows machine:
 ● Navigate to this website: https://cran.r-project.org/bin/
-● Click on "Download R-4.4.1 for Windows"
+● Click on "Download R-4.6.0 for Windows"
 ● Run the downloaded .exe file, and follow the instructions.
 On a Mac:
 ● Navigate to this website: https://cloud.r-project.org/bin/macosx/
-● Click on "R-4.4.1-arm64.pkg" or "R-4.4.1-x86_64.pkg" depending on the chip you have.
+● Click on "R-4.6.0-arm64.pkg" 
+● For older Macs that use Intel chips, click "R-4.6.0-x86_64.pkg" 
 ○ If you're not sure of your chip, click on the apple logo on the top right of the
 screen, and click on "About This Mac".
 ○ If it says something like "Chip: Apple M1 Pro", download the R package under
-"For Apple silicon (M1-3) Macs:".
+"For Apple silicon (M1,2,...) Macs:".
 ○ If it says something like "Processor: XXX Intel XXX", download the R package
 under "For older Intel Macs".
 ● Run the downloaded .pkg file, and follow the instructions.
