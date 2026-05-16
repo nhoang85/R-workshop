@@ -11,25 +11,24 @@ Created in the early 1990s by Ross Ihaka and Robert Gentleman, it has become one
 
 ### The Package Ecosystem ###
 While the core R language provides basic math and data tools, its true power comes from its vast library of over 15,000 add-on packages available via CRAN (Comprehensive R Archive Network). \
-The most famous suite of tools is the Tidyverse, which includes: \
+The most famous suite of tools is the Tidyverse, which includes: 
 
-    ● ggplot2: The industry standard for creating elegant, data-driven visualizations. \
-    ● dplyr & tidyr: Powerful tools for data manipulation, filtering, and structural cleaning. \
-    ● rmarkdown: A tool to build reproducible reports, presentation slides, and interactive dashboards directly from code. \
+    ● ggplot2: The industry standard for creating elegant, data-driven visualizations. 
+    ● dplyr & tidyr: Powerful tools for data manipulation, filtering, and structural cleaning. 
+    ● rmarkdown: A tool to build reproducible reports, presentation slides, and interactive dashboards directly from code. 
 
 ### Common Applications ###
 
-    ● Data Science & ML: Building predictive models, clustering data, and deploying machine learning algorithms. \
-    ● Academia & Research: Analyzing clinical trials in healthcare or publishing scientific papers. \
-    ● Finance: Performing quantitative analysis, stock market forecasting, and risk management. \
+    ● Data Science & ML: Building predictive models, clustering data, and deploying machine learning algorithms. 
+    ● Academia & Research: Analyzing clinical trials in healthcare or publishing scientific papers. 
+    ● Finance: Performing quantitative analysis, stock market forecasting, and risk management. 
 
 ### How it Looks (An Example) ###
-R code is highly readable. For instance, to calculate a basic average from a list of numbers, the code looks like this: \
-# Create a sequence of numbers (a vector)
-scores <- c(85, 90, 78, 92, 88)
-
-# Calculate the average
-mean(scores) 
+R code is highly readable. For instance, to calculate a basic average from a list of numbers, the code looks like this: 
+    ● Create a sequence of numbers (a vector)
+      scores <- c(85, 90, 78, 92, 88)
+    ● Calculate the average
+      mean(scores) 
 
 ### R vs. Python ###
 People often compare R to Python. Python is a general programming language used for web development, video games, and software engineering. \
