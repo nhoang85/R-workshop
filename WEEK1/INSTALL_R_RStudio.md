@@ -1,8 +1,8 @@
 ## INSTALL R ##
 
 ### On a Windows machine ###
-● Navigate to this website: https://cran.r-project.org/bin/
-● Click on "Download R-4.6.0 for Windows"
+● Navigate to this website: https://cran.r-project.org/bin/ \
+● Click on "Download R-4.6.0 for Windows" \
 ● Run the downloaded .exe file, and follow the instructions.
 
 ### On a Mac ###
