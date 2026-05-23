@@ -1,0 +1,108 @@
+---
+title: "R Workshop: Part1"
+author: "Nichole Bouffard"
+date: "6/02/2022"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+## Description
+
+This is a printable version of the script we'll be going over in today's session. Feel free to print it out and follow along. We will be covering how to navigate through data in nested folders and how to compile data from multiple subjects into a single file using loops in R. We will use functions from the package 'tidyverse' to read in csv files.
+
+ 
+```{r setup, message = FALSE, warning=FALSE}
+# install.packages('tidyverse')
+library(tidyverse)
+```
+
+## Set working directory (aka filepath) if needed
+
+```{r setWD}
+getwd()
+setwd("~/Dropbox/Baycrest_Rworkshop/2022/part_1/")
+```
+
+
+## Practice reading in one subject's data
+
+I'm using read_csv here instead of read.csv. You must have the tidyverse loaded first before you can use read_csv, but it reads your data into a tibble way quicker and more efficient than reading your data into a data.frame using read.csv
+
+```{r readData, message = FALSE, warning=FALSE}
+oneSub<-read_csv('complete_data2/day1/treatment1_control_Day1.csv')
+
+# Now try it with col_names = FALSE
+oneSub<-read_csv('complete_data2/day1/treatment1_control_Day1.csv', col_names = FALSE)
+
+# Rename the first column 
+colnames(oneSub) <- 'blood_press'
+
+# Add in the variables we want as columns to the data
+oneSub$group <- 'control'
+oneSub$day <- 'Day1'
+oneSub$treatment <- 'treatment1'
+
+```
+
+# Now we can try putting all subjects data together
+
+First list out the variables
+
+```{r listVars}
+# Our loop will go through each list
+groups <- c('control','patient')
+days <- c('Day1','Day2')
+treatments <- c('treatment1','treatment2','treatment3')
+
+```
+
+## Create empty master dataframe
+
+This will be where we store each subject's data as we loop through the csv files
+
+```{r masterDF}
+master <- data.frame()
+```
+
+# BIG LOOP (contains nested loops, or loops within loops)
+
+
+
+```{r big loop,message = FALSE, warning=FALSE}
+# First loop through groups
+for (group in groups) {
+  # Then loop through days
+  for (day in days) {
+    # Then loop through treatments
+    for (treat in treatments) {
+      
+      # Use the paste0() function to create the filename 
+      filename <- paste0('complete_data2/', day, '/', treat, '_', group,'_', day, '.csv')
+      
+      # Read in the file using read_csv() from the tidyverse package and save it to a dataframe called raw_data
+      raw_data <- read_csv(filename, col_names = FALSE)
+      
+      # Rename the first column 
+      colnames(raw_data) <- 'blood_press'
+      
+      # Add in the variables we want as columns to the data
+      raw_data$group <- group
+      raw_data$day <- day
+      raw_data$treatment <- treat
+      
+      # Add the raw_data that we just created to the master dataframe using rbind()
+      # Doing it like this will allow us to add to the master dataframe each loop, without overwriting the previous data
+      master <- rbind(master,raw_data)
+      
+    } # End treatment loop
+  } # End day loop
+} # End group loop
+
+```
+
+# Final result
+```{r result}
+head(master)
+```

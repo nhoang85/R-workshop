@@ -1,0 +1,1108 @@
+0.9899000000953677	DATA	Mouse: out, pos=(676.1640625,463.3671875)
+150.8522999999523	DATA	Mouse: out, pos=(924.38671875,510.8515625)
+152.06140000009535	EXP	Created consent_image = ImageStim( name=consent_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.75,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.875,"y":-0.5,"width":1.75,"height":1,"type~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.06210000014303	EXP	Created overview_image = ImageStim( name=overview_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.0625	EXP	Created Pracstudyinstruc_image = ImageStim( name=Pracstudyinstruc_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.07399999999998	EXP	Created fixation = TextStim( name=fixation, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.013963366145116918,"y":-0.0281980742778541~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.0745	EXP	Created Pracstudy_scene = ImageStim( name=Pracstudy_scene, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.5,0.5], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.25,"y":-0.25,"width":0.5,"height":0.5,"typ~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.07799999999997	EXP	Created Pracstudy_prompt = TextStim( name=Pracstudy_prompt, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.35], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.3375218954178129,"y":-0.38438789546079777,~, text=Is the scene indoor or outdoor?
+<press 'i' for IND~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.07870000004766	EXP	Created Practest_Instruc_image = ImageStim( name=Practest_Instruc_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.07910000014303	EXP	Created Practest_instruct_image2 = ImageStim( name=Practest_instruct_image2, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.07960000014305	EXP	Created fixation_2 = TextStim( name=fixation_2, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.013963366145116918,"y":-0.0281980742778541~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.07999999999998	EXP	Created Practest_scene = ImageStim( name=Practest_scene, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.5,0.5], ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.25,"y":-0.25,"width":0.5,"height":0.5,"typ~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.08049999999997	EXP	Created Practest_prompt = TextStim( name=Practest_prompt, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.35], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.27362287224896836,"y":-0.38438789546079777~, text=Is the scene OLD or NEW?
+<press 'b' for OLD>  or  ~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.0812999999523	EXP	Created PracTest_RK_text = TextStim( name=PracTest_RK_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.3649831821698762,"y":-0.0343878954607978,"~, text=How well do you remember the stimulus?
+<press 'r' ~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.08810000014304	EXP	Created feedback_text = TextStim( name=feedback_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":0,"y":-0.028198074277854195,"width":0,"height~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.08890000009535	EXP	Created Prac_End_text = TextStim( name=Prac_End_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.48692991317056394,"y":-0.0687757909215956,~, text=This is the end of the practice session. Feel free~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.08960000014304	EXP	Created Start_Exp_text = TextStim( name=Start_Exp_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.46597008790405775,"y":-0.0687757909215956,~, text=Here on out, you will officially begin the experim~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.0897999999523	EXP	Created Studyinstruc_image = ImageStim( name=Studyinstruc_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.08999999999997	EXP	Created fixation_3 = TextStim( name=fixation_3, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.013963366145116918,"y":-0.0281980742778541~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.0902999999523	EXP	Created Study_scene = ImageStim( name=Study_scene, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.5,0.5], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.25,"y":-0.25,"width":0.5,"height":0.5,"typ~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.09060000014304	EXP	Created Study_prompt = TextStim( name=Study_prompt, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.35], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.3375218954178129,"y":-0.3671939477303989,"~, text=<press 'i' for INDOOR>  or  <press 'o' for OUTDOOR~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.09090000009536	EXP	Created Testinstruc_image = ImageStim( name=Testinstruc_image, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.7,1], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.85,"y":-0.5,"width":1.7,"height":1,"type":~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.09160000014305	EXP	Created fixation_4 = TextStim( name=fixation_4, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.013963366145116918,"y":-0.0281980742778541~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.09190000009536	EXP	Created Test_scene = ImageStim( name=Test_scene, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.5,0.5], ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.25,"y":-0.25,"width":0.5,"height":0.5,"typ~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, flipHoriz=null, flipVert=null )
+152.09210000014303	EXP	Created Test_prompt = TextStim( name=Test_prompt, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.35], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.27362287224896836,"y":-0.3671939477303989,~, text=<press 'b' for OLD>  or  <press 'n' for NEW>, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.09249999999997	EXP	Created Test_RK_text = TextStim( name=Test_RK_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-5, clipMask=null, boundingBox={"x":-0.3649831821698762,"y":-0.0171939477303989,"~, text=<press 'r' for RECOLLECT>  or  <press 'k' for FAMI~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.09290000009534	EXP	Created End_Exp_text = TextStim( name=End_Exp_text, win=Window( name=Window, fullscr=null, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.37119651070323245,"y":-0.0343878954607978,~, text=Thank you for your participation ~ have a nice day~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+152.11520000004768	EXP	consent_image: units = height
+152.11520000004768	EXP	consent_image: pos = [0,0]
+152.11520000004768	EXP	consent_image: size = [1.75,1]
+152.11520000004768	EXP	consent_image: ori = null
+152.11520000004768	EXP	consent_image: opacity = 1
+152.11520000004768	EXP	consent_image: depth = null
+152.11520000004768	EXP	consent_image: clipMask = null
+152.11520000004768	EXP	consent_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	consent_image: image = {}
+152.11520000004768	EXP	consent_image: mask = undefined
+152.11520000004768	EXP	consent_image: color = #ffffff
+152.11520000004768	EXP	consent_image: contrast = 1
+152.11520000004768	EXP	consent_image: texRes = 128
+152.11520000004768	EXP	consent_image: interpolate = true
+152.11520000004768	EXP	consent_image: flipHoriz = null
+152.11520000004768	EXP	consent_image: flipVert = null
+152.11520000004768	EXP	overview_image: units = height
+152.11520000004768	EXP	overview_image: pos = [0,0]
+152.11520000004768	EXP	overview_image: size = [1.7,1]
+152.11520000004768	EXP	overview_image: ori = null
+152.11520000004768	EXP	overview_image: opacity = 1
+152.11520000004768	EXP	overview_image: depth = null
+152.11520000004768	EXP	overview_image: clipMask = null
+152.11520000004768	EXP	overview_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	overview_image: image = {}
+152.11520000004768	EXP	overview_image: mask = undefined
+152.11520000004768	EXP	overview_image: color = #ffffff
+152.11520000004768	EXP	overview_image: contrast = 1
+152.11520000004768	EXP	overview_image: texRes = 128
+152.11520000004768	EXP	overview_image: interpolate = true
+152.11520000004768	EXP	overview_image: flipHoriz = null
+152.11520000004768	EXP	overview_image: flipVert = null
+152.11520000004768	EXP	Pracstudyinstruc_image: units = height
+152.11520000004768	EXP	Pracstudyinstruc_image: pos = [0,0]
+152.11520000004768	EXP	Pracstudyinstruc_image: size = [1.7,1]
+152.11520000004768	EXP	Pracstudyinstruc_image: ori = null
+152.11520000004768	EXP	Pracstudyinstruc_image: opacity = 1
+152.11520000004768	EXP	Pracstudyinstruc_image: depth = null
+152.11520000004768	EXP	Pracstudyinstruc_image: clipMask = null
+152.11520000004768	EXP	Pracstudyinstruc_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Pracstudyinstruc_image: image = {}
+152.11520000004768	EXP	Pracstudyinstruc_image: mask = undefined
+152.11520000004768	EXP	Pracstudyinstruc_image: color = #ffffff
+152.11520000004768	EXP	Pracstudyinstruc_image: contrast = 1
+152.11520000004768	EXP	Pracstudyinstruc_image: texRes = 128
+152.11520000004768	EXP	Pracstudyinstruc_image: interpolate = true
+152.11520000004768	EXP	Pracstudyinstruc_image: flipHoriz = null
+152.11520000004768	EXP	Pracstudyinstruc_image: flipVert = null
+152.11520000004768	EXP	fixation: units = height
+152.11520000004768	EXP	fixation: pos = [0,0]
+152.11520000004768	EXP	fixation: size = undefined
+152.11520000004768	EXP	fixation: ori = null
+152.11520000004768	EXP	fixation: opacity = 1
+152.11520000004768	EXP	fixation: depth = null
+152.11520000004768	EXP	fixation: clipMask = null
+152.11520000004768	EXP	fixation: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	fixation: text = +
+152.11520000004768	EXP	fixation: alignHoriz = center
+152.11520000004768	EXP	fixation: alignVert = center
+152.11520000004768	EXP	fixation: flipHoriz = null
+152.11520000004768	EXP	fixation: flipVert = null
+152.11520000004768	EXP	fixation: font = Open Sans
+152.11520000004768	EXP	fixation: height = 0.05
+152.11520000004768	EXP	fixation: wrapWidth = 1
+152.11520000004768	EXP	fixation: bold = null
+152.11520000004768	EXP	fixation: italic = null
+152.11520000004768	EXP	fixation: color = #FFFFFF
+152.11520000004768	EXP	fixation: contrast = 1
+152.11520000004768	EXP	Pracstudy_scene: units = height
+152.11520000004768	EXP	Pracstudy_scene: pos = [0,0]
+152.11520000004768	EXP	Pracstudy_scene: size = [0.5,0.5]
+152.11520000004768	EXP	Pracstudy_scene: ori = null
+152.11520000004768	EXP	Pracstudy_scene: opacity = 1
+152.11520000004768	EXP	Pracstudy_scene: depth = -1
+152.11520000004768	EXP	Pracstudy_scene: clipMask = null
+152.11520000004768	EXP	Pracstudy_scene: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Pracstudy_scene: image = undefined
+152.11520000004768	EXP	Pracstudy_scene: mask = undefined
+152.11520000004768	EXP	Pracstudy_scene: color = #ffffff
+152.11520000004768	EXP	Pracstudy_scene: contrast = 1
+152.11520000004768	EXP	Pracstudy_scene: texRes = 128
+152.11520000004768	EXP	Pracstudy_scene: interpolate = true
+152.11520000004768	EXP	Pracstudy_scene: flipHoriz = null
+152.11520000004768	EXP	Pracstudy_scene: flipVert = null
+152.11520000004768	EXP	Pracstudy_prompt: units = height
+152.11520000004768	EXP	Pracstudy_prompt: pos = [0,-0.35]
+152.11520000004768	EXP	Pracstudy_prompt: size = undefined
+152.11520000004768	EXP	Pracstudy_prompt: ori = null
+152.11520000004768	EXP	Pracstudy_prompt: opacity = 1
+152.11520000004768	EXP	Pracstudy_prompt: depth = -2
+152.11520000004768	EXP	Pracstudy_prompt: clipMask = null
+152.11520000004768	EXP	Pracstudy_prompt: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Pracstudy_prompt: text = Is the scene indoor or outdoor?
+<press 'i' for INDOOR>  or  <press 'o' for OUTDOOR>
+152.11520000004768	EXP	Pracstudy_prompt: alignHoriz = center
+152.11520000004768	EXP	Pracstudy_prompt: alignVert = center
+152.11520000004768	EXP	Pracstudy_prompt: flipHoriz = null
+152.11520000004768	EXP	Pracstudy_prompt: flipVert = null
+152.11520000004768	EXP	Pracstudy_prompt: font = Open Sans
+152.11520000004768	EXP	Pracstudy_prompt: height = 0.03
+152.11520000004768	EXP	Pracstudy_prompt: wrapWidth = 1
+152.11520000004768	EXP	Pracstudy_prompt: bold = null
+152.11520000004768	EXP	Pracstudy_prompt: italic = null
+152.11520000004768	EXP	Pracstudy_prompt: color = #FFFFFF
+152.11520000004768	EXP	Pracstudy_prompt: contrast = 1
+152.11520000004768	EXP	Practest_Instruc_image: units = height
+152.11520000004768	EXP	Practest_Instruc_image: pos = [0,0]
+152.11520000004768	EXP	Practest_Instruc_image: size = [1.7,1]
+152.11520000004768	EXP	Practest_Instruc_image: ori = null
+152.11520000004768	EXP	Practest_Instruc_image: opacity = 1
+152.11520000004768	EXP	Practest_Instruc_image: depth = -1
+152.11520000004768	EXP	Practest_Instruc_image: clipMask = null
+152.11520000004768	EXP	Practest_Instruc_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Practest_Instruc_image: image = undefined
+152.11520000004768	EXP	Practest_Instruc_image: mask = undefined
+152.11520000004768	EXP	Practest_Instruc_image: color = #ffffff
+152.11520000004768	EXP	Practest_Instruc_image: contrast = 1
+152.11520000004768	EXP	Practest_Instruc_image: texRes = 128
+152.11520000004768	EXP	Practest_Instruc_image: interpolate = true
+152.11520000004768	EXP	Practest_Instruc_image: flipHoriz = null
+152.11520000004768	EXP	Practest_Instruc_image: flipVert = null
+152.11520000004768	EXP	Practest_instruct_image2: units = height
+152.11520000004768	EXP	Practest_instruct_image2: pos = [0,0]
+152.11520000004768	EXP	Practest_instruct_image2: size = [1.7,1]
+152.11520000004768	EXP	Practest_instruct_image2: ori = null
+152.11520000004768	EXP	Practest_instruct_image2: opacity = 1
+152.11520000004768	EXP	Practest_instruct_image2: depth = null
+152.11520000004768	EXP	Practest_instruct_image2: clipMask = null
+152.11520000004768	EXP	Practest_instruct_image2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Practest_instruct_image2: image = {}
+152.11520000004768	EXP	Practest_instruct_image2: mask = undefined
+152.11520000004768	EXP	Practest_instruct_image2: color = #ffffff
+152.11520000004768	EXP	Practest_instruct_image2: contrast = 1
+152.11520000004768	EXP	Practest_instruct_image2: texRes = 128
+152.11520000004768	EXP	Practest_instruct_image2: interpolate = true
+152.11520000004768	EXP	Practest_instruct_image2: flipHoriz = null
+152.11520000004768	EXP	Practest_instruct_image2: flipVert = null
+152.11520000004768	EXP	fixation_2: units = height
+152.11520000004768	EXP	fixation_2: pos = [0,0]
+152.11520000004768	EXP	fixation_2: size = undefined
+152.11520000004768	EXP	fixation_2: ori = null
+152.11520000004768	EXP	fixation_2: opacity = 1
+152.11520000004768	EXP	fixation_2: depth = -1
+152.11520000004768	EXP	fixation_2: clipMask = null
+152.11520000004768	EXP	fixation_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	fixation_2: text = +
+152.11520000004768	EXP	fixation_2: alignHoriz = center
+152.11520000004768	EXP	fixation_2: alignVert = center
+152.11520000004768	EXP	fixation_2: flipHoriz = null
+152.11520000004768	EXP	fixation_2: flipVert = null
+152.11520000004768	EXP	fixation_2: font = Open Sans
+152.11520000004768	EXP	fixation_2: height = 0.05
+152.11520000004768	EXP	fixation_2: wrapWidth = 1
+152.11520000004768	EXP	fixation_2: bold = null
+152.11520000004768	EXP	fixation_2: italic = null
+152.11520000004768	EXP	fixation_2: color = #FFFFFF
+152.11520000004768	EXP	fixation_2: contrast = 1
+152.11520000004768	EXP	Practest_scene: units = height
+152.11520000004768	EXP	Practest_scene: pos = [0,0]
+152.11520000004768	EXP	Practest_scene: size = [0.5,0.5]
+152.11520000004768	EXP	Practest_scene: ori = null
+152.11520000004768	EXP	Practest_scene: opacity = 1
+152.11520000004768	EXP	Practest_scene: depth = -2
+152.11520000004768	EXP	Practest_scene: clipMask = null
+152.11520000004768	EXP	Practest_scene: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Practest_scene: image = undefined
+152.11520000004768	EXP	Practest_scene: mask = undefined
+152.11520000004768	EXP	Practest_scene: color = #ffffff
+152.11520000004768	EXP	Practest_scene: contrast = 1
+152.11520000004768	EXP	Practest_scene: texRes = 128
+152.11520000004768	EXP	Practest_scene: interpolate = true
+152.11520000004768	EXP	Practest_scene: flipHoriz = null
+152.11520000004768	EXP	Practest_scene: flipVert = null
+152.11520000004768	EXP	Practest_prompt: units = height
+152.11520000004768	EXP	Practest_prompt: pos = [0,-0.35]
+152.11520000004768	EXP	Practest_prompt: size = undefined
+152.11520000004768	EXP	Practest_prompt: ori = null
+152.11520000004768	EXP	Practest_prompt: opacity = 1
+152.11520000004768	EXP	Practest_prompt: depth = -3
+152.11520000004768	EXP	Practest_prompt: clipMask = null
+152.11520000004768	EXP	Practest_prompt: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Practest_prompt: text = Is the scene OLD or NEW?
+<press 'b' for OLD>  or  <press 'n' for NEW>
+152.11520000004768	EXP	Practest_prompt: alignHoriz = center
+152.11520000004768	EXP	Practest_prompt: alignVert = center
+152.11520000004768	EXP	Practest_prompt: flipHoriz = null
+152.11520000004768	EXP	Practest_prompt: flipVert = null
+152.11520000004768	EXP	Practest_prompt: font = Open Sans
+152.11520000004768	EXP	Practest_prompt: height = 0.03
+152.11520000004768	EXP	Practest_prompt: wrapWidth = 1
+152.11520000004768	EXP	Practest_prompt: bold = null
+152.11520000004768	EXP	Practest_prompt: italic = null
+152.11520000004768	EXP	Practest_prompt: color = #FFFFFF
+152.11520000004768	EXP	Practest_prompt: contrast = 1
+152.11520000004768	EXP	PracTest_RK_text: units = height
+152.11520000004768	EXP	PracTest_RK_text: pos = [0,0]
+152.11520000004768	EXP	PracTest_RK_text: size = undefined
+152.11520000004768	EXP	PracTest_RK_text: ori = null
+152.11520000004768	EXP	PracTest_RK_text: opacity = 1
+152.11520000004768	EXP	PracTest_RK_text: depth = -5
+152.11520000004768	EXP	PracTest_RK_text: clipMask = null
+152.11520000004768	EXP	PracTest_RK_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	PracTest_RK_text: text = How well do you remember the stimulus?
+<press 'r' for RECOLLECT>  or  <press 'k' for FAMILIAR>
+152.11520000004768	EXP	PracTest_RK_text: alignHoriz = center
+152.11520000004768	EXP	PracTest_RK_text: alignVert = center
+152.11520000004768	EXP	PracTest_RK_text: flipHoriz = null
+152.11520000004768	EXP	PracTest_RK_text: flipVert = null
+152.11520000004768	EXP	PracTest_RK_text: font = Open Sans
+152.11520000004768	EXP	PracTest_RK_text: height = 0.03
+152.11520000004768	EXP	PracTest_RK_text: wrapWidth = 1
+152.11520000004768	EXP	PracTest_RK_text: bold = null
+152.11520000004768	EXP	PracTest_RK_text: italic = null
+152.11520000004768	EXP	PracTest_RK_text: color = #FFFFFF
+152.11520000004768	EXP	PracTest_RK_text: contrast = 1
+152.11520000004768	EXP	feedback_text: units = height
+152.11520000004768	EXP	feedback_text: pos = [0,0]
+152.11520000004768	EXP	feedback_text: size = undefined
+152.11520000004768	EXP	feedback_text: ori = null
+152.11520000004768	EXP	feedback_text: opacity = 1
+152.11520000004768	EXP	feedback_text: depth = -1
+152.11520000004768	EXP	feedback_text: clipMask = null
+152.11520000004768	EXP	feedback_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	feedback_text: text = null
+152.11520000004768	EXP	feedback_text: alignHoriz = center
+152.11520000004768	EXP	feedback_text: alignVert = center
+152.11520000004768	EXP	feedback_text: flipHoriz = null
+152.11520000004768	EXP	feedback_text: flipVert = null
+152.11520000004768	EXP	feedback_text: font = Open Sans
+152.11520000004768	EXP	feedback_text: height = 0.05
+152.11520000004768	EXP	feedback_text: wrapWidth = 1
+152.11520000004768	EXP	feedback_text: bold = null
+152.11520000004768	EXP	feedback_text: italic = null
+152.11520000004768	EXP	feedback_text: color = #FFFFFF
+152.11520000004768	EXP	feedback_text: contrast = 1
+152.11520000004768	EXP	Prac_End_text: units = height
+152.11520000004768	EXP	Prac_End_text: pos = [0,0]
+152.11520000004768	EXP	Prac_End_text: size = undefined
+152.11520000004768	EXP	Prac_End_text: ori = null
+152.11520000004768	EXP	Prac_End_text: opacity = 1
+152.11520000004768	EXP	Prac_End_text: depth = null
+152.11520000004768	EXP	Prac_End_text: clipMask = null
+152.11520000004768	EXP	Prac_End_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Prac_End_text: text = This is the end of the practice session. Feel free to take a quick break or advance to the official experiment. 
+
+<press 'spacebar' to continue>
+152.11520000004768	EXP	Prac_End_text: alignHoriz = center
+152.11520000004768	EXP	Prac_End_text: alignVert = center
+152.11520000004768	EXP	Prac_End_text: flipHoriz = null
+152.11520000004768	EXP	Prac_End_text: flipVert = null
+152.11520000004768	EXP	Prac_End_text: font = Open Sans
+152.11520000004768	EXP	Prac_End_text: height = 0.03
+152.11520000004768	EXP	Prac_End_text: wrapWidth = 1
+152.11520000004768	EXP	Prac_End_text: bold = null
+152.11520000004768	EXP	Prac_End_text: italic = null
+152.11520000004768	EXP	Prac_End_text: color = #FFFFFF
+152.11520000004768	EXP	Prac_End_text: contrast = 1
+152.11520000004768	EXP	Start_Exp_text: units = height
+152.11520000004768	EXP	Start_Exp_text: pos = [0,0]
+152.11520000004768	EXP	Start_Exp_text: size = undefined
+152.11520000004768	EXP	Start_Exp_text: ori = null
+152.11520000004768	EXP	Start_Exp_text: opacity = 1
+152.11520000004768	EXP	Start_Exp_text: depth = null
+152.11520000004768	EXP	Start_Exp_text: clipMask = null
+152.11520000004768	EXP	Start_Exp_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Start_Exp_text: text = Here on out, you will officially begin the experiment whereby no feedback is provided. Please work in an environment free of any distraction.
+
+<press 'spacebar' to continue>
+152.11520000004768	EXP	Start_Exp_text: alignHoriz = center
+152.11520000004768	EXP	Start_Exp_text: alignVert = center
+152.11520000004768	EXP	Start_Exp_text: flipHoriz = null
+152.11520000004768	EXP	Start_Exp_text: flipVert = null
+152.11520000004768	EXP	Start_Exp_text: font = Open Sans
+152.11520000004768	EXP	Start_Exp_text: height = 0.03
+152.11520000004768	EXP	Start_Exp_text: wrapWidth = 1
+152.11520000004768	EXP	Start_Exp_text: bold = null
+152.11520000004768	EXP	Start_Exp_text: italic = null
+152.11520000004768	EXP	Start_Exp_text: color = #FFFFFF
+152.11520000004768	EXP	Start_Exp_text: contrast = 1
+152.11520000004768	EXP	Studyinstruc_image: units = height
+152.11520000004768	EXP	Studyinstruc_image: pos = [0,0]
+152.11520000004768	EXP	Studyinstruc_image: size = [1.7,1]
+152.11520000004768	EXP	Studyinstruc_image: ori = null
+152.11520000004768	EXP	Studyinstruc_image: opacity = 1
+152.11520000004768	EXP	Studyinstruc_image: depth = null
+152.11520000004768	EXP	Studyinstruc_image: clipMask = null
+152.11520000004768	EXP	Studyinstruc_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Studyinstruc_image: image = {}
+152.11520000004768	EXP	Studyinstruc_image: mask = undefined
+152.11520000004768	EXP	Studyinstruc_image: color = #ffffff
+152.11520000004768	EXP	Studyinstruc_image: contrast = 1
+152.11520000004768	EXP	Studyinstruc_image: texRes = 128
+152.11520000004768	EXP	Studyinstruc_image: interpolate = true
+152.11520000004768	EXP	Studyinstruc_image: flipHoriz = null
+152.11520000004768	EXP	Studyinstruc_image: flipVert = null
+152.11520000004768	EXP	fixation_3: units = height
+152.11520000004768	EXP	fixation_3: pos = [0,0]
+152.11520000004768	EXP	fixation_3: size = undefined
+152.11520000004768	EXP	fixation_3: ori = null
+152.11520000004768	EXP	fixation_3: opacity = 1
+152.11520000004768	EXP	fixation_3: depth = null
+152.11520000004768	EXP	fixation_3: clipMask = null
+152.11520000004768	EXP	fixation_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	fixation_3: text = +
+152.11520000004768	EXP	fixation_3: alignHoriz = center
+152.11520000004768	EXP	fixation_3: alignVert = center
+152.11520000004768	EXP	fixation_3: flipHoriz = null
+152.11520000004768	EXP	fixation_3: flipVert = null
+152.11520000004768	EXP	fixation_3: font = Open Sans
+152.11520000004768	EXP	fixation_3: height = 0.05
+152.11520000004768	EXP	fixation_3: wrapWidth = 1
+152.11520000004768	EXP	fixation_3: bold = null
+152.11520000004768	EXP	fixation_3: italic = null
+152.11520000004768	EXP	fixation_3: color = #FFFFFF
+152.11520000004768	EXP	fixation_3: contrast = 1
+152.11520000004768	EXP	Study_scene: units = height
+152.11520000004768	EXP	Study_scene: pos = [0,0]
+152.11520000004768	EXP	Study_scene: size = [0.5,0.5]
+152.11520000004768	EXP	Study_scene: ori = null
+152.11520000004768	EXP	Study_scene: opacity = 1
+152.11520000004768	EXP	Study_scene: depth = -1
+152.11520000004768	EXP	Study_scene: clipMask = null
+152.11520000004768	EXP	Study_scene: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Study_scene: image = undefined
+152.11520000004768	EXP	Study_scene: mask = undefined
+152.11520000004768	EXP	Study_scene: color = #ffffff
+152.11520000004768	EXP	Study_scene: contrast = 1
+152.11520000004768	EXP	Study_scene: texRes = 128
+152.11520000004768	EXP	Study_scene: interpolate = true
+152.11520000004768	EXP	Study_scene: flipHoriz = null
+152.11520000004768	EXP	Study_scene: flipVert = null
+152.11520000004768	EXP	Study_prompt: units = height
+152.11520000004768	EXP	Study_prompt: pos = [0,-0.35]
+152.11520000004768	EXP	Study_prompt: size = undefined
+152.11520000004768	EXP	Study_prompt: ori = null
+152.11520000004768	EXP	Study_prompt: opacity = 1
+152.11520000004768	EXP	Study_prompt: depth = -2
+152.11520000004768	EXP	Study_prompt: clipMask = null
+152.11520000004768	EXP	Study_prompt: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Study_prompt: text = <press 'i' for INDOOR>  or  <press 'o' for OUTDOOR>
+152.11520000004768	EXP	Study_prompt: alignHoriz = center
+152.11520000004768	EXP	Study_prompt: alignVert = center
+152.11520000004768	EXP	Study_prompt: flipHoriz = null
+152.11520000004768	EXP	Study_prompt: flipVert = null
+152.11520000004768	EXP	Study_prompt: font = Open Sans
+152.11520000004768	EXP	Study_prompt: height = 0.03
+152.11520000004768	EXP	Study_prompt: wrapWidth = 1
+152.11520000004768	EXP	Study_prompt: bold = null
+152.11520000004768	EXP	Study_prompt: italic = null
+152.11520000004768	EXP	Study_prompt: color = #FFFFFF
+152.11520000004768	EXP	Study_prompt: contrast = 1
+152.11520000004768	EXP	Testinstruc_image: units = height
+152.11520000004768	EXP	Testinstruc_image: pos = [0,0]
+152.11520000004768	EXP	Testinstruc_image: size = [1.7,1]
+152.11520000004768	EXP	Testinstruc_image: ori = null
+152.11520000004768	EXP	Testinstruc_image: opacity = 1
+152.11520000004768	EXP	Testinstruc_image: depth = null
+152.11520000004768	EXP	Testinstruc_image: clipMask = null
+152.11520000004768	EXP	Testinstruc_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Testinstruc_image: image = {}
+152.11520000004768	EXP	Testinstruc_image: mask = undefined
+152.11520000004768	EXP	Testinstruc_image: color = #ffffff
+152.11520000004768	EXP	Testinstruc_image: contrast = 1
+152.11520000004768	EXP	Testinstruc_image: texRes = 128
+152.11520000004768	EXP	Testinstruc_image: interpolate = true
+152.11520000004768	EXP	Testinstruc_image: flipHoriz = null
+152.11520000004768	EXP	Testinstruc_image: flipVert = null
+152.11520000004768	EXP	fixation_4: units = height
+152.11520000004768	EXP	fixation_4: pos = [0,0]
+152.11520000004768	EXP	fixation_4: size = undefined
+152.11520000004768	EXP	fixation_4: ori = null
+152.11520000004768	EXP	fixation_4: opacity = 1
+152.11520000004768	EXP	fixation_4: depth = -1
+152.11520000004768	EXP	fixation_4: clipMask = null
+152.11520000004768	EXP	fixation_4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	fixation_4: text = +
+152.11520000004768	EXP	fixation_4: alignHoriz = center
+152.11520000004768	EXP	fixation_4: alignVert = center
+152.11520000004768	EXP	fixation_4: flipHoriz = null
+152.11520000004768	EXP	fixation_4: flipVert = null
+152.11520000004768	EXP	fixation_4: font = Open Sans
+152.11520000004768	EXP	fixation_4: height = 0.05
+152.11520000004768	EXP	fixation_4: wrapWidth = 1
+152.11520000004768	EXP	fixation_4: bold = null
+152.11520000004768	EXP	fixation_4: italic = null
+152.11520000004768	EXP	fixation_4: color = #FFFFFF
+152.11520000004768	EXP	fixation_4: contrast = 1
+152.11520000004768	EXP	Test_scene: units = height
+152.11520000004768	EXP	Test_scene: pos = [0,0]
+152.11520000004768	EXP	Test_scene: size = [0.5,0.5]
+152.11520000004768	EXP	Test_scene: ori = null
+152.11520000004768	EXP	Test_scene: opacity = 1
+152.11520000004768	EXP	Test_scene: depth = -2
+152.11520000004768	EXP	Test_scene: clipMask = null
+152.11520000004768	EXP	Test_scene: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Test_scene: image = undefined
+152.11520000004768	EXP	Test_scene: mask = undefined
+152.11520000004768	EXP	Test_scene: color = #ffffff
+152.11520000004768	EXP	Test_scene: contrast = 1
+152.11520000004768	EXP	Test_scene: texRes = 128
+152.11520000004768	EXP	Test_scene: interpolate = true
+152.11520000004768	EXP	Test_scene: flipHoriz = null
+152.11520000004768	EXP	Test_scene: flipVert = null
+152.11520000004768	EXP	Test_prompt: units = height
+152.11520000004768	EXP	Test_prompt: pos = [0,-0.35]
+152.11520000004768	EXP	Test_prompt: size = undefined
+152.11520000004768	EXP	Test_prompt: ori = null
+152.11520000004768	EXP	Test_prompt: opacity = 1
+152.11520000004768	EXP	Test_prompt: depth = -3
+152.11520000004768	EXP	Test_prompt: clipMask = null
+152.11520000004768	EXP	Test_prompt: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Test_prompt: text = <press 'b' for OLD>  or  <press 'n' for NEW>
+152.11520000004768	EXP	Test_prompt: alignHoriz = center
+152.11520000004768	EXP	Test_prompt: alignVert = center
+152.11520000004768	EXP	Test_prompt: flipHoriz = null
+152.11520000004768	EXP	Test_prompt: flipVert = null
+152.11520000004768	EXP	Test_prompt: font = Open Sans
+152.11520000004768	EXP	Test_prompt: height = 0.03
+152.11520000004768	EXP	Test_prompt: wrapWidth = 1
+152.11520000004768	EXP	Test_prompt: bold = null
+152.11520000004768	EXP	Test_prompt: italic = null
+152.11520000004768	EXP	Test_prompt: color = #FFFFFF
+152.11520000004768	EXP	Test_prompt: contrast = 1
+152.11520000004768	EXP	Test_RK_text: units = height
+152.11520000004768	EXP	Test_RK_text: pos = [0,0]
+152.11520000004768	EXP	Test_RK_text: size = undefined
+152.11520000004768	EXP	Test_RK_text: ori = null
+152.11520000004768	EXP	Test_RK_text: opacity = 1
+152.11520000004768	EXP	Test_RK_text: depth = -5
+152.11520000004768	EXP	Test_RK_text: clipMask = null
+152.11520000004768	EXP	Test_RK_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	Test_RK_text: text = <press 'r' for RECOLLECT>  or  <press 'k' for FAMILIAR>
+152.11520000004768	EXP	Test_RK_text: alignHoriz = center
+152.11520000004768	EXP	Test_RK_text: alignVert = center
+152.11520000004768	EXP	Test_RK_text: flipHoriz = null
+152.11520000004768	EXP	Test_RK_text: flipVert = null
+152.11520000004768	EXP	Test_RK_text: font = Open Sans
+152.11520000004768	EXP	Test_RK_text: height = 0.03
+152.11520000004768	EXP	Test_RK_text: wrapWidth = 1
+152.11520000004768	EXP	Test_RK_text: bold = null
+152.11520000004768	EXP	Test_RK_text: italic = null
+152.11520000004768	EXP	Test_RK_text: color = #FFFFFF
+152.11520000004768	EXP	Test_RK_text: contrast = 1
+152.11520000004768	EXP	End_Exp_text: units = height
+152.11520000004768	EXP	End_Exp_text: pos = [0,0]
+152.11520000004768	EXP	End_Exp_text: size = undefined
+152.11520000004768	EXP	End_Exp_text: ori = null
+152.11520000004768	EXP	End_Exp_text: opacity = 1
+152.11520000004768	EXP	End_Exp_text: depth = null
+152.11520000004768	EXP	End_Exp_text: clipMask = null
+152.11520000004768	EXP	End_Exp_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+152.11520000004768	EXP	End_Exp_text: text = Thank you for your participation ~ have a nice day \/_(-_-)_\/
+<press 'spacebar' to end>
+152.11520000004768	EXP	End_Exp_text: alignHoriz = center
+152.11520000004768	EXP	End_Exp_text: alignVert = center
+152.11520000004768	EXP	End_Exp_text: flipHoriz = null
+152.11520000004768	EXP	End_Exp_text: flipVert = null
+152.11520000004768	EXP	End_Exp_text: font = Open Sans
+152.11520000004768	EXP	End_Exp_text: height = 0.03
+152.11520000004768	EXP	End_Exp_text: wrapWidth = 1
+152.11520000004768	EXP	End_Exp_text: bold = null
+152.11520000004768	EXP	End_Exp_text: italic = null
+152.11520000004768	EXP	End_Exp_text: color = #FFFFFF
+152.11520000004768	EXP	End_Exp_text: contrast = 1
+152.11520000004768	EXP	consent_image: autoDraw = true
+179.12540000009534	DATA	Keydown: y
+179.15620000004768	EXP	consent_image: autoDraw = null
+179.15620000004768	EXP	overview_image: autoDraw = true
+212.74720000004768	DATA	Keydown:  
+212.78160000014304	EXP	overview_image: autoDraw = null
+212.78160000014304	EXP	Pracstudyinstruc_image: autoDraw = true
+222.21940000009536	DATA	Keydown:  
+222.24349999999998	EXP	Pracstudyinstruc_image: autoDraw = null
+222.24349999999998	EXP	Pracstudy_scene: image = {}
+222.24349999999998	EXP	fixation: autoDraw = true
+223.25520000004767	EXP	fixation: autoDraw = null
+223.25520000004767	EXP	Pracstudy_scene: autoDraw = true
+223.25520000004767	EXP	Pracstudy_prompt: autoDraw = true
+223.86740000009536	DATA	Keydown: o
+223.87370000004768	EXP	fixation: autoDraw = null
+223.87370000004768	EXP	Pracstudy_scene: autoDraw = null
+223.87370000004768	EXP	Pracstudy_prompt: autoDraw = null
+223.87370000004768	EXP	Pracstudy_scene: image = {}
+223.87370000004768	EXP	fixation: autoDraw = true
+224.8752999999523	EXP	fixation: autoDraw = null
+224.89240000009536	EXP	Pracstudy_scene: autoDraw = true
+224.89240000009536	EXP	Pracstudy_prompt: autoDraw = true
+226.3127999999523	DATA	Keydown: o
+226.31740000009535	EXP	fixation: autoDraw = null
+226.31740000009535	EXP	Pracstudy_scene: autoDraw = null
+226.31740000009535	EXP	Pracstudy_prompt: autoDraw = null
+226.31740000009535	EXP	Pracstudy_scene: image = {}
+226.31740000009535	EXP	fixation: autoDraw = true
+227.32	EXP	fixation: autoDraw = null
+227.331	EXP	Pracstudy_scene: autoDraw = true
+227.331	EXP	Pracstudy_prompt: autoDraw = true
+228.06120000004768	DATA	Keydown: i
+228.06540000009537	EXP	fixation: autoDraw = null
+228.06540000009537	EXP	Pracstudy_scene: autoDraw = null
+228.06540000009537	EXP	Pracstudy_prompt: autoDraw = null
+228.06540000009537	EXP	Pracstudy_scene: image = {}
+228.06540000009537	EXP	fixation: autoDraw = true
+229.07590000009534	EXP	fixation: autoDraw = null
+229.07590000009534	EXP	Pracstudy_scene: autoDraw = true
+229.07590000009534	EXP	Pracstudy_prompt: autoDraw = true
+230.55999999999997	DATA	Keydown: o
+230.5642999999523	EXP	fixation: autoDraw = null
+230.5642999999523	EXP	Pracstudy_scene: autoDraw = null
+230.5642999999523	EXP	Pracstudy_prompt: autoDraw = null
+230.5642999999523	EXP	Pracstudy_scene: image = {}
+230.5642999999523	EXP	fixation: autoDraw = true
+231.56320000004766	EXP	fixation: autoDraw = null
+231.57399999999998	EXP	Pracstudy_scene: autoDraw = true
+231.57399999999998	EXP	Pracstudy_prompt: autoDraw = true
+232.31960000014303	DATA	Keydown: i
+232.32520000004766	EXP	fixation: autoDraw = null
+232.32520000004766	EXP	Pracstudy_scene: autoDraw = null
+232.32520000004766	EXP	Pracstudy_prompt: autoDraw = null
+232.32520000004766	EXP	Pracstudy_scene: image = {}
+232.32520000004766	EXP	fixation: autoDraw = true
+233.32390000009536	EXP	fixation: autoDraw = null
+233.3377999999523	EXP	Pracstudy_scene: autoDraw = true
+233.3377999999523	EXP	Pracstudy_prompt: autoDraw = true
+234.09960000014303	DATA	Keydown: o
+234.1362999999523	EXP	fixation: autoDraw = null
+234.1362999999523	EXP	Pracstudy_scene: autoDraw = null
+234.1362999999523	EXP	Pracstudy_prompt: autoDraw = null
+234.1362999999523	EXP	Practest_Instruc_image: image = {}
+234.1362999999523	EXP	Practest_Instruc_image: autoDraw = true
+358.58120000004766	DATA	Keydown: ArrowRight
+358.62060000014304	EXP	Practest_Instruc_image: autoDraw = null
+358.62060000014304	EXP	Practest_Instruc_image: image = {}
+358.62060000014304	EXP	Practest_Instruc_image: autoDraw = true
+362.003	DATA	Keydown: ArrowRight
+362.03620000004764	EXP	Practest_Instruc_image: autoDraw = null
+362.03620000004764	EXP	Practest_Instruc_image: image = {}
+362.03620000004764	EXP	Practest_Instruc_image: autoDraw = true
+374.70140000009536	DATA	Keydown: ArrowRight
+374.74760000014305	EXP	Practest_Instruc_image: autoDraw = null
+374.74760000014305	EXP	Practest_Instruc_image: image = {}
+374.74760000014305	EXP	Practest_Instruc_image: autoDraw = true
+375.200600000143	DATA	Keydown: ArrowRight
+375.2415	EXP	Practest_Instruc_image: autoDraw = null
+375.2415	EXP	Practest_Instruc_image: image = {}
+375.2415	EXP	Practest_Instruc_image: autoDraw = true
+375.811	DATA	Keydown: ArrowRight
+375.849	EXP	Practest_Instruc_image: autoDraw = null
+375.849	EXP	Practest_Instruc_image: image = {}
+375.849	EXP	Practest_Instruc_image: autoDraw = true
+376.4817000000477	DATA	Keydown: ArrowRight
+376.51840000009537	EXP	Practest_Instruc_image: autoDraw = null
+376.51840000009537	EXP	Practest_Instruc_image: image = {}
+376.51840000009537	EXP	Practest_Instruc_image: autoDraw = true
+378.539	DATA	Keydown: ArrowLeft
+378.573	EXP	Practest_Instruc_image: autoDraw = null
+378.573	EXP	Practest_Instruc_image: image = {}
+378.573	EXP	Practest_Instruc_image: autoDraw = true
+378.91340000009535	DATA	Keydown: ArrowRight
+378.9475	EXP	Practest_Instruc_image: autoDraw = null
+378.9475	EXP	Practest_Instruc_image: image = {}
+378.9475	EXP	Practest_Instruc_image: autoDraw = true
+379.656	DATA	Keydown: ArrowLeft
+379.66720000004767	EXP	Practest_Instruc_image: autoDraw = null
+379.66720000004767	EXP	Practest_Instruc_image: image = {}
+379.66720000004767	EXP	Practest_Instruc_image: autoDraw = true
+379.95660000014306	DATA	Keydown: ArrowRight
+379.965600000143	EXP	Practest_Instruc_image: autoDraw = null
+379.965600000143	EXP	Practest_Instruc_image: image = {}
+379.965600000143	EXP	Practest_Instruc_image: autoDraw = true
+1334.5297999999525	DATA	Keydown:  
+1335.8015	DATA	Mouse: 0 button down, pos=(869.171875,289.6875)
+1335.8019000000954	DATA	Mouse: 0 button up, pos=(869.171875,289.6875)
+1336.6569000000954	DATA	Keydown: ArrowRight
+1336.6927000000478	EXP	Practest_Instruc_image: autoDraw = null
+1336.6927000000478	EXP	Practest_instruct_image2: autoDraw = true
+1351.5967000000478	DATA	Keydown:  
+1351.6190000000001	EXP	Practest_instruct_image2: autoDraw = null
+1351.6190000000001	EXP	Practest_scene: image = {}
+1351.6190000000001	EXP	fixation_2: autoDraw = true
+1352.613100000143	EXP	fixation_2: autoDraw = null
+1352.6296000001432	EXP	Practest_scene: autoDraw = true
+1352.6296000001432	EXP	Practest_prompt: autoDraw = true
+1354.9312000000477	DATA	Keydown: o
+1356.1174000000954	EXP	Practest_scene: autoDraw = null
+1356.1174000000954	EXP	Practest_prompt: autoDraw = null
+1356.1246000001431	EXP	PracTest_RK_text: autoDraw = true
+1359.6187999999524	EXP	fixation_2: autoDraw = null
+1359.6187999999524	EXP	Practest_scene: autoDraw = null
+1359.6187999999524	EXP	Practest_prompt: autoDraw = null
+1359.6187999999524	EXP	PracTest_RK_text: autoDraw = null
+1359.6187999999524	EXP	feedback_text: text = Too slow! Please be fast at responding.
+1359.6187999999524	EXP	feedback_text: autoDraw = true
+1359.7729000000954	DATA	Keydown: r
+1361.6072999999524	EXP	feedback_text: autoDraw = null
+1361.6072999999524	EXP	feedback_text: autoDraw = null
+1361.6072999999524	EXP	Practest_scene: image = {}
+1361.6072999999524	EXP	fixation_2: autoDraw = true
+1362.6062999999524	EXP	fixation_2: autoDraw = null
+1362.6225000000002	EXP	Practest_scene: autoDraw = true
+1362.6225000000002	EXP	Practest_prompt: autoDraw = true
+1366.104	EXP	Practest_scene: autoDraw = null
+1366.104	EXP	Practest_prompt: autoDraw = null
+1366.1135000000002	EXP	PracTest_RK_text: autoDraw = true
+1369.605600000143	EXP	PracTest_RK_text: autoDraw = null
+1369.605600000143	EXP	fixation_2: autoDraw = null
+1369.605600000143	EXP	Practest_scene: autoDraw = null
+1369.605600000143	EXP	Practest_prompt: autoDraw = null
+1369.605600000143	EXP	PracTest_RK_text: autoDraw = null
+1369.605600000143	EXP	feedback_text: text = Too slow! Please be fast at responding.
+1369.605600000143	EXP	feedback_text: autoDraw = true
+1371.6165	EXP	feedback_text: autoDraw = null
+1371.6165	EXP	feedback_text: autoDraw = null
+1371.6165	EXP	Practest_scene: image = {}
+1371.6165	EXP	fixation_2: autoDraw = true
+1372.612	EXP	fixation_2: autoDraw = null
+1372.635600000143	EXP	Practest_scene: autoDraw = true
+1372.635600000143	EXP	Practest_prompt: autoDraw = true
+1373.8722999999525	DATA	Keydown: n
+1373.9054000000954	EXP	fixation_2: autoDraw = null
+1373.9054000000954	EXP	Practest_scene: autoDraw = null
+1373.9054000000954	EXP	Practest_prompt: autoDraw = null
+1373.9054000000954	EXP	PracTest_RK_text: autoDraw = null
+1373.9054000000954	EXP	feedback_text: text = Correct!
+1373.9054000000954	EXP	feedback_text: autoDraw = true
+1375.8897000000477	EXP	feedback_text: autoDraw = null
+1375.8897000000477	EXP	feedback_text: autoDraw = null
+1375.8897000000477	EXP	Practest_scene: image = {}
+1375.8897000000477	EXP	fixation_2: autoDraw = true
+1376.89	EXP	fixation_2: autoDraw = null
+1376.9089000000954	EXP	Practest_scene: autoDraw = true
+1376.9089000000954	EXP	Practest_prompt: autoDraw = true
+1379.9019000000956	DATA	Keydown: n
+1379.9121000001433	EXP	fixation_2: autoDraw = null
+1379.9121000001433	EXP	Practest_scene: autoDraw = null
+1379.9121000001433	EXP	Practest_prompt: autoDraw = null
+1379.9121000001433	EXP	PracTest_RK_text: autoDraw = null
+1379.9121000001433	EXP	feedback_text: text = Correct!
+1379.9121000001433	EXP	feedback_text: autoDraw = true
+1381.9257000000478	EXP	feedback_text: autoDraw = null
+1381.9257000000478	EXP	feedback_text: autoDraw = null
+1381.9257000000478	EXP	Practest_scene: image = {}
+1381.9257000000478	EXP	fixation_2: autoDraw = true
+1382.9205000000002	EXP	fixation_2: autoDraw = null
+1382.941	EXP	Practest_scene: autoDraw = true
+1382.941	EXP	Practest_prompt: autoDraw = true
+1385.3554000000954	DATA	Keydown: n
+1385.361100000143	EXP	fixation_2: autoDraw = null
+1385.361100000143	EXP	Practest_scene: autoDraw = null
+1385.361100000143	EXP	Practest_prompt: autoDraw = null
+1385.361100000143	EXP	PracTest_RK_text: autoDraw = null
+1385.361100000143	EXP	feedback_text: text = Correct!
+1385.361100000143	EXP	feedback_text: autoDraw = true
+1387.3764000000954	EXP	feedback_text: autoDraw = null
+1387.3764000000954	EXP	feedback_text: autoDraw = null
+1387.3764000000954	EXP	Practest_scene: image = {}
+1387.3764000000954	EXP	fixation_2: autoDraw = true
+1388.3905000000002	EXP	fixation_2: autoDraw = null
+1388.3905000000002	EXP	Practest_scene: autoDraw = true
+1388.3905000000002	EXP	Practest_prompt: autoDraw = true
+1390.8744000000954	DATA	Keydown: b
+1391.8704000000955	EXP	Practest_scene: autoDraw = null
+1391.8704000000955	EXP	Practest_prompt: autoDraw = null
+1391.882100000143	EXP	PracTest_RK_text: autoDraw = true
+1394.9732000000479	DATA	Keydown: k
+1394.9962000000478	EXP	fixation_2: autoDraw = null
+1394.9962000000478	EXP	Practest_scene: autoDraw = null
+1394.9962000000478	EXP	Practest_prompt: autoDraw = null
+1394.9962000000478	EXP	PracTest_RK_text: autoDraw = null
+1394.9962000000478	EXP	feedback_text: text = Incorrect!
+1394.9962000000478	EXP	feedback_text: autoDraw = true
+1396.9872999999525	EXP	feedback_text: autoDraw = null
+1396.9872999999525	EXP	feedback_text: autoDraw = null
+1396.9872999999525	EXP	Prac_End_text: autoDraw = true
+1404.1762000000479	DATA	Keydown:  
+1404.1841000001432	EXP	Prac_End_text: autoDraw = null
+1404.1841000001432	EXP	Start_Exp_text: autoDraw = true
+1406.6950000000002	DATA	Keydown:  
+1406.7367000000477	EXP	Start_Exp_text: autoDraw = null
+1406.7367000000477	EXP	Studyinstruc_image: autoDraw = true
+1408.6744000000954	DATA	Keydown:  
+1408.6822000000477	EXP	Studyinstruc_image: autoDraw = null
+1408.6822000000477	EXP	Study_scene: image = {}
+1408.6822000000477	EXP	fixation_3: autoDraw = true
+1409.678100000143	EXP	fixation_3: autoDraw = null
+1409.7022999999524	EXP	Study_scene: autoDraw = true
+1409.7022999999524	EXP	Study_prompt: autoDraw = true
+1412.1707999999524	DATA	Keydown: i
+1412.1902999999525	EXP	fixation_3: autoDraw = null
+1412.1902999999525	EXP	Study_scene: autoDraw = null
+1412.1902999999525	EXP	Study_prompt: autoDraw = null
+1412.1902999999525	EXP	Study_scene: image = {}
+1412.1902999999525	EXP	fixation_3: autoDraw = true
+1413.1862999999523	EXP	fixation_3: autoDraw = null
+1413.2027000000478	EXP	Study_scene: autoDraw = true
+1413.2027000000478	EXP	Study_prompt: autoDraw = true
+1414.0645000000002	DATA	Keydown: o
+1414.0707999999524	EXP	fixation_3: autoDraw = null
+1414.0707999999524	EXP	Study_scene: autoDraw = null
+1414.0707999999524	EXP	Study_prompt: autoDraw = null
+1414.0707999999524	EXP	Study_scene: image = {}
+1414.0707999999524	EXP	fixation_3: autoDraw = true
+1415.0710000000001	EXP	fixation_3: autoDraw = null
+1415.0867000000478	EXP	Study_scene: autoDraw = true
+1415.0867000000478	EXP	Study_prompt: autoDraw = true
+1415.7142999999523	DATA	Keydown: o
+1415.72	EXP	fixation_3: autoDraw = null
+1415.72	EXP	Study_scene: autoDraw = null
+1415.72	EXP	Study_prompt: autoDraw = null
+1415.72	EXP	Study_scene: image = {}
+1415.72	EXP	fixation_3: autoDraw = true
+1416.7175000000002	EXP	fixation_3: autoDraw = null
+1416.7329000000955	EXP	Study_scene: autoDraw = true
+1416.7329000000955	EXP	Study_prompt: autoDraw = true
+1417.3725000000002	DATA	Keydown: i
+1417.3781000001431	EXP	fixation_3: autoDraw = null
+1417.3781000001431	EXP	Study_scene: autoDraw = null
+1417.3781000001431	EXP	Study_prompt: autoDraw = null
+1417.3781000001431	EXP	Study_scene: image = {}
+1417.3781000001431	EXP	fixation_3: autoDraw = true
+1418.3770000000002	EXP	fixation_3: autoDraw = null
+1418.3982000000478	EXP	Study_scene: autoDraw = true
+1418.3982000000478	EXP	Study_prompt: autoDraw = true
+1419.6870000000001	DATA	Keydown: i
+1419.7031000001432	EXP	fixation_3: autoDraw = null
+1419.7031000001432	EXP	Study_scene: autoDraw = null
+1419.7031000001432	EXP	Study_prompt: autoDraw = null
+1419.7031000001432	EXP	Study_scene: image = {}
+1419.7031000001432	EXP	fixation_3: autoDraw = true
+1420.7062000000478	EXP	fixation_3: autoDraw = null
+1420.7164000000955	EXP	Study_scene: autoDraw = true
+1420.7164000000955	EXP	Study_prompt: autoDraw = true
+1421.3022000000478	DATA	Keydown: o
+1421.3410000000001	EXP	fixation_3: autoDraw = null
+1421.3410000000001	EXP	Study_scene: autoDraw = null
+1421.3410000000001	EXP	Study_prompt: autoDraw = null
+1421.3410000000001	EXP	Testinstruc_image: autoDraw = true
+1423.1497000000477	DATA	Keydown:  
+1423.164	EXP	Testinstruc_image: autoDraw = null
+1423.164	EXP	Test_scene: image = {}
+1423.164	EXP	fixation_4: autoDraw = true
+1424.1572999999523	EXP	fixation_4: autoDraw = null
+1424.1835	EXP	Test_scene: autoDraw = true
+1424.1835	EXP	Test_prompt: autoDraw = true
+1426.0444000000955	DATA	Keydown: n
+1426.0709000000954	EXP	fixation_4: autoDraw = null
+1426.0709000000954	EXP	Test_scene: autoDraw = null
+1426.0709000000954	EXP	Test_prompt: autoDraw = null
+1426.0709000000954	EXP	Test_RK_text: autoDraw = null
+1426.0709000000954	EXP	Test_scene: image = {}
+1426.0709000000954	EXP	fixation_4: autoDraw = true
+1427.0682999999524	EXP	fixation_4: autoDraw = null
+1427.0852000000477	EXP	Test_scene: autoDraw = true
+1427.0852000000477	EXP	Test_prompt: autoDraw = true
+1427.8552999999524	DATA	Keydown: n
+1427.8702000000478	EXP	fixation_4: autoDraw = null
+1427.8702000000478	EXP	Test_scene: autoDraw = null
+1427.8702000000478	EXP	Test_prompt: autoDraw = null
+1427.8702000000478	EXP	Test_RK_text: autoDraw = null
+1427.8702000000478	EXP	Test_scene: image = {}
+1427.8702000000478	EXP	fixation_4: autoDraw = true
+1428.8675	EXP	fixation_4: autoDraw = null
+1428.8831000001433	EXP	Test_scene: autoDraw = true
+1428.8831000001433	EXP	Test_prompt: autoDraw = true
+1429.7194000000954	DATA	Keydown: n
+1429.7349000000954	EXP	fixation_4: autoDraw = null
+1429.7349000000954	EXP	Test_scene: autoDraw = null
+1429.7349000000954	EXP	Test_prompt: autoDraw = null
+1429.7349000000954	EXP	Test_RK_text: autoDraw = null
+1429.7349000000954	EXP	Test_scene: image = {}
+1429.7349000000954	EXP	fixation_4: autoDraw = true
+1430.7321000001432	EXP	fixation_4: autoDraw = null
+1430.7472000000478	EXP	Test_scene: autoDraw = true
+1430.7472000000478	EXP	Test_prompt: autoDraw = true
+1431.3047999999524	DATA	Keydown: n
+1431.3167999999523	EXP	fixation_4: autoDraw = null
+1431.3167999999523	EXP	Test_scene: autoDraw = null
+1431.3167999999523	EXP	Test_prompt: autoDraw = null
+1431.3167999999523	EXP	Test_RK_text: autoDraw = null
+1431.3167999999523	EXP	Test_scene: image = {}
+1431.3167999999523	EXP	fixation_4: autoDraw = true
+1432.3137999999524	EXP	fixation_4: autoDraw = null
+1432.3437999999524	EXP	Test_scene: autoDraw = true
+1432.3437999999524	EXP	Test_prompt: autoDraw = true
+1434.1132999999525	DATA	Keydown: b
+1435.8144000000955	EXP	Test_scene: autoDraw = null
+1435.8144000000955	EXP	Test_prompt: autoDraw = null
+1435.8282999999524	EXP	Test_RK_text: autoDraw = true
+1438.5917999999524	DATA	Keydown: r
+1438.6105	EXP	fixation_4: autoDraw = null
+1438.6105	EXP	Test_scene: autoDraw = null
+1438.6105	EXP	Test_prompt: autoDraw = null
+1438.6105	EXP	Test_RK_text: autoDraw = null
+1438.6105	EXP	Test_scene: image = {}
+1438.6105	EXP	fixation_4: autoDraw = true
+1439.6097000000477	EXP	fixation_4: autoDraw = null
+1439.6252999999524	EXP	Test_scene: autoDraw = true
+1439.6252999999524	EXP	Test_prompt: autoDraw = true
+1441.6097999999524	DATA	Keydown: n
+1441.6560000000002	EXP	fixation_4: autoDraw = null
+1441.6560000000002	EXP	Test_scene: autoDraw = null
+1441.6560000000002	EXP	Test_prompt: autoDraw = null
+1441.6560000000002	EXP	Test_RK_text: autoDraw = null
+1441.6560000000002	EXP	Studyinstruc_image: autoDraw = true
+1444.7577999999523	DATA	Keydown:  
+1444.7820000000002	EXP	Studyinstruc_image: autoDraw = null
+1444.7820000000002	EXP	Study_scene: image = {}
+1444.7820000000002	EXP	fixation_3: autoDraw = true
+1445.7945000000002	EXP	fixation_3: autoDraw = null
+1445.7945000000002	EXP	Study_scene: autoDraw = true
+1445.7945000000002	EXP	Study_prompt: autoDraw = true
+1448.1279000000955	DATA	Keydown: b
+1448.702	DATA	Keydown: i
+1448.7211000001432	EXP	fixation_3: autoDraw = null
+1448.7211000001432	EXP	Study_scene: autoDraw = null
+1448.7211000001432	EXP	Study_prompt: autoDraw = null
+1448.7211000001432	EXP	Study_scene: image = {}
+1448.7211000001432	EXP	fixation_3: autoDraw = true
+1449.7314000000954	EXP	fixation_3: autoDraw = null
+1449.7314000000954	EXP	Study_scene: autoDraw = true
+1449.7314000000954	EXP	Study_prompt: autoDraw = true
+1450.4171000001431	DATA	Keydown: i
+1450.4247999999525	EXP	fixation_3: autoDraw = null
+1450.4247999999525	EXP	Study_scene: autoDraw = null
+1450.4247999999525	EXP	Study_prompt: autoDraw = null
+1450.4247999999525	EXP	Study_scene: image = {}
+1450.4247999999525	EXP	fixation_3: autoDraw = true
+1451.4234000000954	EXP	fixation_3: autoDraw = null
+1451.4397000000479	EXP	Study_scene: autoDraw = true
+1451.4397000000479	EXP	Study_prompt: autoDraw = true
+1452.2027000000478	DATA	Keydown: o
+1452.207	EXP	fixation_3: autoDraw = null
+1452.207	EXP	Study_scene: autoDraw = null
+1452.207	EXP	Study_prompt: autoDraw = null
+1452.207	EXP	Study_scene: image = {}
+1452.207	EXP	fixation_3: autoDraw = true
+1453.2057999999524	EXP	fixation_3: autoDraw = null
+1453.2151000001431	EXP	Study_scene: autoDraw = true
+1453.2151000001431	EXP	Study_prompt: autoDraw = true
+1454.2117000000478	DATA	Keydown: o
+1454.2186000001432	EXP	fixation_3: autoDraw = null
+1454.2186000001432	EXP	Study_scene: autoDraw = null
+1454.2186000001432	EXP	Study_prompt: autoDraw = null
+1454.2186000001432	EXP	Study_scene: image = {}
+1454.2186000001432	EXP	fixation_3: autoDraw = true
+1455.2185000000002	EXP	fixation_3: autoDraw = null
+1455.2267999999524	EXP	Study_scene: autoDraw = true
+1455.2267999999524	EXP	Study_prompt: autoDraw = true
+1456.6416000001432	DATA	Keydown: o
+1456.6459000000955	EXP	fixation_3: autoDraw = null
+1456.6459000000955	EXP	Study_scene: autoDraw = null
+1456.6459000000955	EXP	Study_prompt: autoDraw = null
+1456.6459000000955	EXP	Study_scene: image = {}
+1456.6459000000955	EXP	fixation_3: autoDraw = true
+1457.6492000000478	EXP	fixation_3: autoDraw = null
+1457.6492000000478	EXP	Study_scene: autoDraw = true
+1457.6492000000478	EXP	Study_prompt: autoDraw = true
+1459.5984000000956	DATA	Keydown: i
+1459.6324000000955	EXP	fixation_3: autoDraw = null
+1459.6324000000955	EXP	Study_scene: autoDraw = null
+1459.6324000000955	EXP	Study_prompt: autoDraw = null
+1459.6324000000955	EXP	Testinstruc_image: autoDraw = true
+1462.3314000000955	DATA	Keydown:  
+1462.3499000000954	EXP	Testinstruc_image: autoDraw = null
+1462.3499000000954	EXP	Test_scene: image = {}
+1462.3499000000954	EXP	fixation_4: autoDraw = true
+1463.3442000000477	EXP	fixation_4: autoDraw = null
+1463.3581000001432	EXP	Test_scene: autoDraw = true
+1463.3581000001432	EXP	Test_prompt: autoDraw = true
+1465.009	DATA	Keydown: b
+1466.8482000000479	EXP	Test_scene: autoDraw = null
+1466.8482000000479	EXP	Test_prompt: autoDraw = null
+1466.8559000000955	EXP	Test_RK_text: autoDraw = true
+1468.3272000000477	DATA	Keydown: r
+1468.342	EXP	fixation_4: autoDraw = null
+1468.342	EXP	Test_scene: autoDraw = null
+1468.342	EXP	Test_prompt: autoDraw = null
+1468.342	EXP	Test_RK_text: autoDraw = null
+1468.342	EXP	Test_scene: image = {}
+1468.342	EXP	fixation_4: autoDraw = true
+1469.3406000001432	EXP	fixation_4: autoDraw = null
+1469.3497999999524	EXP	Test_scene: autoDraw = true
+1469.3497999999524	EXP	Test_prompt: autoDraw = true
+1471.1225000000002	DATA	Keydown: b
+1472.8454000000954	EXP	Test_scene: autoDraw = null
+1472.8454000000954	EXP	Test_prompt: autoDraw = null
+1472.8454000000954	EXP	Test_RK_text: autoDraw = true
+1474.2594000000954	DATA	Keydown: r
+1474.2747999999524	EXP	fixation_4: autoDraw = null
+1474.2747999999524	EXP	Test_scene: autoDraw = null
+1474.2747999999524	EXP	Test_prompt: autoDraw = null
+1474.2747999999524	EXP	Test_RK_text: autoDraw = null
+1474.2747999999524	EXP	Test_scene: image = {}
+1474.2747999999524	EXP	fixation_4: autoDraw = true
+1475.2720000000002	EXP	fixation_4: autoDraw = null
+1475.2901000001432	EXP	Test_scene: autoDraw = true
+1475.2901000001432	EXP	Test_prompt: autoDraw = true
+1477.2585000000001	DATA	Keydown: b
+1478.7692000000477	EXP	Test_scene: autoDraw = null
+1478.7692000000477	EXP	Test_prompt: autoDraw = null
+1478.7847000000477	EXP	Test_RK_text: autoDraw = true
+1481.9339000000955	DATA	Keydown: k
+1481.9484000000955	EXP	fixation_4: autoDraw = null
+1481.9484000000955	EXP	Test_scene: autoDraw = null
+1481.9484000000955	EXP	Test_prompt: autoDraw = null
+1481.9484000000955	EXP	Test_RK_text: autoDraw = null
+1481.9484000000955	EXP	Test_scene: image = {}
+1481.9484000000955	EXP	fixation_4: autoDraw = true
+1482.9447000000478	EXP	fixation_4: autoDraw = null
+1482.9602999999524	EXP	Test_scene: autoDraw = true
+1482.9602999999524	EXP	Test_prompt: autoDraw = true
+1485.4195000000002	DATA	Keydown: b
+1486.4457999999524	EXP	Test_scene: autoDraw = null
+1486.4457999999524	EXP	Test_prompt: autoDraw = null
+1486.4609000000955	EXP	Test_RK_text: autoDraw = true
+1487.8917000000479	DATA	Keydown: r
+1487.9072000000479	EXP	fixation_4: autoDraw = null
+1487.9072000000479	EXP	Test_scene: autoDraw = null
+1487.9072000000479	EXP	Test_prompt: autoDraw = null
+1487.9072000000479	EXP	Test_RK_text: autoDraw = null
+1487.9072000000479	EXP	Test_scene: image = {}
+1487.9072000000479	EXP	fixation_4: autoDraw = true
+1488.9017999999523	EXP	fixation_4: autoDraw = null
+1488.9311000001433	EXP	Test_scene: autoDraw = true
+1488.9311000001433	EXP	Test_prompt: autoDraw = true
+1491.0900000000001	DATA	Keydown: n
+1491.096	EXP	fixation_4: autoDraw = null
+1491.096	EXP	Test_scene: autoDraw = null
+1491.096	EXP	Test_prompt: autoDraw = null
+1491.096	EXP	Test_RK_text: autoDraw = null
+1491.096	EXP	Test_scene: image = {}
+1491.096	EXP	fixation_4: autoDraw = true
+1492.0962999999524	EXP	fixation_4: autoDraw = null
+1492.1097999999524	EXP	Test_scene: autoDraw = true
+1492.1097999999524	EXP	Test_prompt: autoDraw = true
+1494.2111000001432	DATA	Keydown: b
+1495.5952000000477	EXP	Test_scene: autoDraw = null
+1495.5952000000477	EXP	Test_prompt: autoDraw = null
+1495.6037000000479	EXP	Test_RK_text: autoDraw = true
+1497.5445000000002	DATA	Keydown: r
+1497.5661000001433	EXP	fixation_4: autoDraw = null
+1497.5661000001433	EXP	Test_scene: autoDraw = null
+1497.5661000001433	EXP	Test_prompt: autoDraw = null
+1497.5661000001433	EXP	Test_RK_text: autoDraw = null
+1497.5661000001433	EXP	Studyinstruc_image: autoDraw = true
+1498.7049000000954	DATA	Keydown:  
+1498.7115000000001	EXP	Studyinstruc_image: autoDraw = null
+1498.7115000000001	EXP	Study_scene: image = {}
+1498.7115000000001	EXP	fixation_3: autoDraw = true
+1499.7097000000479	EXP	fixation_3: autoDraw = null
+1499.7247000000477	EXP	Study_scene: autoDraw = true
+1499.7247000000477	EXP	Study_prompt: autoDraw = true
+1502.5982999999524	DATA	Keydown: i
+1502.6142000000477	EXP	fixation_3: autoDraw = null
+1502.6142000000477	EXP	Study_scene: autoDraw = null
+1502.6142000000477	EXP	Study_prompt: autoDraw = null
+1502.6142000000477	EXP	Study_scene: image = {}
+1502.6142000000477	EXP	fixation_3: autoDraw = true
+1503.6112000000478	EXP	fixation_3: autoDraw = null
+1503.6194000000955	EXP	Study_scene: autoDraw = true
+1503.6194000000955	EXP	Study_prompt: autoDraw = true
+1504.822100000143	DATA	Keydown: i
+1504.8254000000954	EXP	fixation_3: autoDraw = null
+1504.8254000000954	EXP	Study_scene: autoDraw = null
+1504.8254000000954	EXP	Study_prompt: autoDraw = null
+1504.8254000000954	EXP	Study_scene: image = {}
+1504.8254000000954	EXP	fixation_3: autoDraw = true
+1505.8265000000001	EXP	fixation_3: autoDraw = null
+1505.8367000000478	EXP	Study_scene: autoDraw = true
+1505.8367000000478	EXP	Study_prompt: autoDraw = true
+1506.6957000000477	DATA	Keydown: o
+1506.7007000000478	EXP	fixation_3: autoDraw = null
+1506.7007000000478	EXP	Study_scene: autoDraw = null
+1506.7007000000478	EXP	Study_prompt: autoDraw = null
+1506.7007000000478	EXP	Study_scene: image = {}
+1506.7007000000478	EXP	fixation_3: autoDraw = true
+1507.7017000000478	EXP	fixation_3: autoDraw = null
+1507.7124000000954	EXP	Study_scene: autoDraw = true
+1507.7124000000954	EXP	Study_prompt: autoDraw = true
+1508.4714000000954	DATA	Keydown: i
+1508.4757000000477	EXP	fixation_3: autoDraw = null
+1508.4757000000477	EXP	Study_scene: autoDraw = null
+1508.4757000000477	EXP	Study_prompt: autoDraw = null
+1508.4757000000477	EXP	Study_scene: image = {}
+1508.4757000000477	EXP	fixation_3: autoDraw = true
+1509.4737999999525	EXP	fixation_3: autoDraw = null
+1509.4842999999523	EXP	Study_scene: autoDraw = true
+1509.4842999999523	EXP	Study_prompt: autoDraw = true
+1510.0947999999523	DATA	Keydown: i
+1510.0996000001433	EXP	fixation_3: autoDraw = null
+1510.0996000001433	EXP	Study_scene: autoDraw = null
+1510.0996000001433	EXP	Study_prompt: autoDraw = null
+1510.0996000001433	EXP	Study_scene: image = {}
+1510.0996000001433	EXP	fixation_3: autoDraw = true
+1511.0996000001433	EXP	fixation_3: autoDraw = null
+1511.1136000001432	EXP	Study_scene: autoDraw = true
+1511.1136000001432	EXP	Study_prompt: autoDraw = true
+1511.7764000000955	DATA	Keydown: i
+1511.7872000000477	EXP	fixation_3: autoDraw = null
+1511.7872000000477	EXP	Study_scene: autoDraw = null
+1511.7872000000477	EXP	Study_prompt: autoDraw = null
+1511.7872000000477	EXP	Testinstruc_image: autoDraw = true
+1512.553	DATA	Keydown:  
+1512.5582999999524	EXP	Testinstruc_image: autoDraw = null
+1512.5582999999524	EXP	Test_scene: image = {}
+1512.5582999999524	EXP	fixation_4: autoDraw = true
+1513.5577999999525	EXP	fixation_4: autoDraw = null
+1513.5737999999524	EXP	Test_scene: autoDraw = true
+1513.5737999999524	EXP	Test_prompt: autoDraw = true
+1515.0736000001432	DATA	Keydown: b
+1517.0591000001432	EXP	Test_scene: autoDraw = null
+1517.0591000001432	EXP	Test_prompt: autoDraw = null
+1517.0591000001432	EXP	Test_RK_text: autoDraw = true
+1517.505	DATA	Keydown: r
+1517.5182999999524	EXP	fixation_4: autoDraw = null
+1517.5182999999524	EXP	Test_scene: autoDraw = null
+1517.5182999999524	EXP	Test_prompt: autoDraw = null
+1517.5182999999524	EXP	Test_RK_text: autoDraw = null
+1517.5182999999524	EXP	Test_scene: image = {}
+1517.5182999999524	EXP	fixation_4: autoDraw = true
+1518.5167000000479	EXP	fixation_4: autoDraw = null
+1518.5299000000955	EXP	Test_scene: autoDraw = true
+1518.5299000000955	EXP	Test_prompt: autoDraw = true
+1519.4661000001431	DATA	Keydown: n
+1519.4819000000955	EXP	fixation_4: autoDraw = null
+1519.4819000000955	EXP	Test_scene: autoDraw = null
+1519.4819000000955	EXP	Test_prompt: autoDraw = null
+1519.4819000000955	EXP	Test_RK_text: autoDraw = null
+1519.4819000000955	EXP	Test_scene: image = {}
+1519.4819000000955	EXP	fixation_4: autoDraw = true
+1520.4820000000002	EXP	fixation_4: autoDraw = null
+1520.491600000143	EXP	Test_scene: autoDraw = true
+1520.491600000143	EXP	Test_prompt: autoDraw = true
+1521.2491000001432	DATA	Keydown: k
+1522.4102000000478	DATA	Keydown: r
+1523.9882999999525	EXP	Test_scene: autoDraw = null
+1523.9882999999525	EXP	Test_prompt: autoDraw = null
+1523.9882999999525	EXP	Test_RK_text: autoDraw = true
+1525.4470000000001	DATA	Keydown: k
+1525.4612999999524	EXP	fixation_4: autoDraw = null
+1525.4612999999524	EXP	Test_scene: autoDraw = null
+1525.4612999999524	EXP	Test_prompt: autoDraw = null
+1525.4612999999524	EXP	Test_RK_text: autoDraw = null
+1525.4612999999524	EXP	Test_scene: image = {}
+1525.4612999999524	EXP	fixation_4: autoDraw = true
+1526.4669000000954	EXP	fixation_4: autoDraw = null
+1526.4841000001431	EXP	Test_scene: autoDraw = true
+1526.4841000001431	EXP	Test_prompt: autoDraw = true
+1528.1257999999525	DATA	Keydown: n
+1528.1551000001432	EXP	fixation_4: autoDraw = null
+1528.1551000001432	EXP	Test_scene: autoDraw = null
+1528.1551000001432	EXP	Test_prompt: autoDraw = null
+1528.1551000001432	EXP	Test_RK_text: autoDraw = null
+1528.1551000001432	EXP	Test_scene: image = {}
+1528.1551000001432	EXP	fixation_4: autoDraw = true
+1529.1585	EXP	fixation_4: autoDraw = null
+1529.1585	EXP	Test_scene: autoDraw = true
+1529.1585	EXP	Test_prompt: autoDraw = true
+1530.4659000000954	DATA	Keydown: b
+1532.6517999999523	EXP	Test_scene: autoDraw = null
+1532.6517999999523	EXP	Test_prompt: autoDraw = null
+1532.6560000000002	EXP	Test_RK_text: autoDraw = true
+1533.2352000000478	DATA	Keydown: r
+1533.2519000000955	EXP	fixation_4: autoDraw = null
+1533.2519000000955	EXP	Test_scene: autoDraw = null
+1533.2519000000955	EXP	Test_prompt: autoDraw = null
+1533.2519000000955	EXP	Test_RK_text: autoDraw = null
+1533.2519000000955	EXP	Test_scene: image = {}
+1533.2519000000955	EXP	fixation_4: autoDraw = true
+1534.2521000001432	EXP	fixation_4: autoDraw = null
+1534.262600000143	EXP	Test_scene: autoDraw = true
+1534.262600000143	EXP	Test_prompt: autoDraw = true
+1535.8307999999524	DATA	Keydown: n
+1535.8561000001432	EXP	fixation_4: autoDraw = null
+1535.8561000001432	EXP	Test_scene: autoDraw = null
+1535.8561000001432	EXP	Test_prompt: autoDraw = null
+1535.8561000001432	EXP	Test_RK_text: autoDraw = null
+1535.8561000001432	EXP	End_Exp_text: autoDraw = true
+1538.294100000143	DATA	Keydown:  
