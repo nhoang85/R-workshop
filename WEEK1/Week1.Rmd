@@ -28,9 +28,8 @@ If you add a hash, everything written after is a comment.
 # This is a comment. We can use comments using a hash sign
 This is not a comment
 
+
 ```
-
-
 
 
 ## Setting Working Directory
@@ -131,7 +130,7 @@ Base R cheatsheet: https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-
 a <- 5 # variable (numeric)
 class(a)
 
-b <- 7 + 3.0
+b <- 7 + 4.0 + 3 + 9
 
 
 c <- a+b
@@ -140,11 +139,11 @@ c <- a*b
 c <- a/b 
 
 
-d <- 'Hello World' # character variable
+d <- 'Hello World help me' # character variable
 class(d)
-d[1]
 
-d <- '3'
+
+d <- 3
 class(d)
 
 #Vector
@@ -166,6 +165,7 @@ answers <- c(TRUE, FALSE, TRUE)
 #pressing tab on the keyboard to quickly complete your variable of interest
 #pressing up arrow in the console will quickly highlight your last function used
 ```
+
 ```{r,}
 ## create a vector (R likes to call them lists) by using the c() function called combine or concatenate
 list <- c(44,21,22,30,50,84) # a variable called 'list' of six numbers
@@ -190,6 +190,7 @@ list[list<30] # ...can be used for indexing
 #what about characters like my variable d of "hello world"?
 library(stringr)
 d <- 'hello world boo!'
+
 # Directly extracts the 3rd word
 str_split_i(d, " ", 3)
 
@@ -199,7 +200,7 @@ list4 <- list[1:2]*10
 list4 <- list - list2
 list5 <- (list+list2)/2
 
-view(list5)
+#view(list5)
 class(list5)
 
 ## create matrix and index it
@@ -207,7 +208,7 @@ m <- matrix(21:39,nrow=3,ncol=4)
 m
 m[3] # single index points to the specific row position of the first column
 m[2,3] # row and column indexing
-m[,4] # 3rd column (nothing can mean something in R!)
+m[,4] # 4th column (nothing can mean something in R!)
 m[2,] # 2nd row
 
 ```
@@ -219,20 +220,22 @@ m[2,] # 2nd row
 #The rep() function in R is a base utility used to replicate elements of vectors and lists. It allows you to create larger data structures by repeating existing values in specific patterns
 
 #Example1 with times: Repeats the entire vector a specific number of times.
-a <- rep(1:2, times = 3) #→ 1, 2, 1, 2, 1, 2
-
+a <- rep(1:5, times = 3) 
+a
 
 #Example2 with each: Repeats each individual element of the vector before moving to the next.
-b <- rep(1:2, each = 3) #→ 1, 1, 1, 2, 2, 2
+b <- rep(1:5, each = 3) 
+b
 
 stress_exercise <- c(2,2,4,5,5)
+
 view(stress_exercise)
 
 stress_NOexercise <- c(11,15,20,13,22)
 
 #create data frame with both exercise and no exercise
 group <- rep(c("exercise","no_exercise"), each=5)
-view(group)  
+group  
 class(group)
 
 stress_data <- data.frame (
@@ -265,6 +268,9 @@ sleep.group
 stress.group <- t.test(stress ~ group, data=stress_data)
 stress.group
 
+#install.packages("ggpubr")
+library(ggplot2)
+library(ggpubr)
 #plot
 graph_stress <- ggboxplot(stress_data, x = "group", y = "stress",
           color = "group",
