@@ -252,6 +252,32 @@ stress_data <- data.frame (
 #add a new column
 stress_data$sleep <- c(7,8,7,6,8,9,7,6,7,8)
 summary(stress_data)
+
+
+
+```
+
+
+```{r, review}
+getwd()
+
+happiness_fish <- c(6,9,8)
+happiness_nofish <- c(2,3,5)
+diet <- rep(c("fish","no fish"), each=3)
+
+penguins_lifestyle <- c(happiness, diet)
+penguins_lifestyle <- data.frame(
+  group = rep(c("fish","no fish"), each=3),
+  happiness = c(happiness_fish, happiness_nofish))
+
+penguins_lifestyle$sleep <- c(1,2,1,2,1,2)
+
+penguin.happiness = t.test(happiness ~ group, data=penguins_lifestyle)
+
+library(ggplot2)
+library(ggpubr)
+penguins_lifestyle_graph <- ggboxplot(penguins_lifestyle, x= "group", y= "happiness")
+
 ```
 
 ```{r, }
@@ -422,7 +448,7 @@ if (score >= 90) {
 ## basic control flow
 ## if/else commands
 nice_weather <- T
-very_sunny <- T
+very_sunny <- F
 if(nice_weather==T && very_sunny==T) {
   print("let's go outside, put on sunscreen!")
 } else if(very_sunny==T) {
@@ -464,10 +490,11 @@ students <- c("Chad", "Karen", "Becky", "Brad", "Anxiety-Ridden Al")
 grades <- c(45, 98, 76, 12, 100)
 
 # Pre-allocating our fate vector (The Golden Rule!)
-judgment_day <- character(length(students))
+judgment_day <- character(length(students)) #created 5 empty spaces for for future loop function execution 
+class(students)
 
 # 3. The Judgment Loop
-for (i in 1:length(students)) { #length(students) counts how many students there are so we have 1:5 or c(1,2,3,4,5)
+for (i in 1:length(students)) { #length(students) counts how many students there are so we have 1:5 or c(1,2,3,4,5) from 1 to until the number of students 
   
   # Fetching the current student and their score
   # i stands for index (or iterator). It acts as a temporary placeholder variable.
@@ -491,9 +518,10 @@ for (i in 1:length(students)) { #length(students) counts how many students there
   }
   
   # Print the immediate damage report
-  print(paste0("[STUDENT]:", current_student, " [GRADE]:", current_grade, " [VERDICT]:", judgment_day[i]))
+  print(paste0(" ", current_student, " ", current_grade, " ", judgment_day[i]))
 }
-  #paste0 is a print function
+  #paste0 is a print function, modify the print in specific order/sequence specialized to for loop printing 
+
   #judgment_day[i] uses [i] to pull out only the single roast that belongs to the current student being processed on that exact loop rotation ... or else R would try to print all 5 roasts simultaneously for every single student.
   
 ```
